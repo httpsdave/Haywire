@@ -1,0 +1,47 @@
+---
+import type { Article, CategoryData } from '../utils/data';
+
+interface Props {
+  category: CategoryData;
+  showMoreLink?: boolean;
+}
+
+const { category, showMoreLink = true } = Astro.props;
+
+const featured = category.articles.find(a => a.isFeatured) || category.articles[0];
+const sidebarArticles = category.articles.filter(a => a.id !== featured?.id);
+---
+
+<section class="news-section" id={`section-${category.slug}`}>
+  <div class="section-header">
+    <h2>{category.name}</h2>
+    {showMoreLink && (
+      <a href={`/${category.slug}/`} class="more-link">MORE</a>
+    )}
+  </div>
+
+  <div class="section-content">
+    {featured && (
+      <div class="featured-article">
+        <a href={featured.url} target="_blank" rel="noopener noreferrer">
+          <div class="featured-article-title">{featured.title}</div>
+          <div class="featured-article-meta">({featured.timestamp})</div>
+        </a>
+      </div>
+    )}
+
+    <div class="article-sidebar">
+      {sidebarArticles.map(article => (
+        <div class="article-item">
+          <a href={article.url} target="_blank" rel="noopener noreferrer">
+            <div class="article-item-title">{article.title}</div>
+            <div class="article-item-meta">
+              ({article.timestamp})
+              {article.source && <span class="article-item-source"> — {article.source}</span>}
+            </div>
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

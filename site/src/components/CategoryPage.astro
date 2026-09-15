@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Navigation from '../components/Navigation.astro';
+import AboutPanel from '../components/AboutPanel.astro';
+import DonatePanel from '../components/DonatePanel.astro';
+import DateSelector from '../components/DateSelector.astro';
+import Footer from '../components/Footer.astro';
+import type { CategoryData } from '../utils/data';
+
+interface Props {
+  category: CategoryData;
+  navSlug: string;
+}
+
+const { category, navSlug } = Astro.props;
+const featured = category.articles.find(a => a.isFeatured) || category.articles[0];
+const otherArticles = category.articles.filter(a => a.id !== featured?.id);
+---
+
+<BaseLayout title={`${category.name} — Haywire`} description={`Latest ${category.name} from Haywire — crowdsourced news aggregator.`}>
+  <Header />
+  <Navigation currentPage={navSlug} />
+  <AboutPanel />
+  <DonatePanel />
+
+  <main class="container">
+    <DateSelector />
+
+    <section class="news-section">
+      <div class="section-header">
+        <h2>{category.name}</h2>
+      </div>
+
+      {featured && (
+        <div class="section-content" style="margin-bottom: var(--space-lg);">
+          <div class="featured-article">
+            <a href={featured.url} target="_blank" rel="noopener noreferrer">
+              <div class="featured-article-title">{featured.title}</div>
+              <div class="featured-article-meta">({featured.timestamp})</div>
+            </a>
+          </div>
+          <div class="article-sidebar">
+            {otherArticles.slice(0, 5).map(article => (
+              <div class="article-item">
+                <a href={article.url} target="_blank" rel="noopener noreferrer">
+                  <div class="article-item-title">{article.title}</div>
+                  <div class="article-item-meta">
+                    ({article.timestamp})
+                    <span class="article-item-source"> — {article.source}</span>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Full article listing below -->
+      <div class="category-full-list">
+        {category.articles.map(article => (
+          <div class="category-full-item">
+            <a href={article.url} target="_blank" rel="noopener noreferrer">
+              <div class="category-full-title">{article.title}</div>
+            </a>
+            <div class="category-full-meta">
+              {article.timestamp} — <span class="article-item-source">{article.source}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

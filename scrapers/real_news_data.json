@@ -1,0 +1,398 @@
+{
+  "world_news": [
+    {
+      "title": "China criticises idea it is in \\'malicious competition\\' over AI",
+      "url": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "world_news",
+      "timestamp": "2026-09-14T11:31:39+00:00"
+    },
+    {
+      "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+      "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "world_news",
+      "timestamp": "2026-09-14T12:18:13+00:00"
+    },
+    {
+      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
+      "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "world_news",
+      "timestamp": "2026-09-14T08:36:09+00:00"
+    },
+    {
+      "title": "Wild dogs record 2,500-mile trek across Zambia in search of a mate",
+      "url": "https://www.bbc.co.uk/news/articles/cy459y5y9yxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "world_news",
+      "timestamp": "2026-09-14T14:08:12+00:00"
+    },
+    {
+      "title": "Thousands demand end to violence in Mexican cartel hotspot",
+      "url": "https://www.bbc.co.uk/news/articles/cde06rxw5g6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "world_news",
+      "timestamp": "2026-09-14T11:28:36+00:00"
+    },
+    {
+      "title": "Legendary costume designer Bob Mackie dies aged 87",
+      "url": "https://www.bbc.co.uk/news/articles/cmpq04wx8l4eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "world_news",
+      "timestamp": "2026-09-14T21:29:12+00:00"
+    }
+  ],
+  "ph_news": [
+    {
+      "title": "Rare, endemic plant rediscovered in Masungi after 130 years",
+      "url": "https://newsinfo.inquirer.net/2305322/rare-endemic-plant-rediscovered-in-masungi-after-130-years",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T10:36:56+00:00"
+    },
+    {
+      "title": "Fewer families victimized by common crimes, more by cybercrime – SWS",
+      "url": "https://newsinfo.inquirer.net/2305308/fewer-families-victimized-by-common-crimes-more-by-cybercrime-sws",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T10:32:38+00:00"
+    },
+    {
+      "title": "Southern Leyte seeks Maasin-Clark flight as airport rehab advances",
+      "url": "https://newsinfo.inquirer.net/2305304/southern-leyte-seeks-maasin-clark-flight-as-airport-rehab-advances",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T10:09:28+00:00"
+    },
+    {
+      "title": "Cendaña files complaint at NBI vs vloggers ‘mocking’ PWDs",
+      "url": "https://newsinfo.inquirer.net/2305306/cendana-files-complaint-at-nbi-vs-vloggers-mocking-pwds",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T09:51:21+00:00"
+    },
+    {
+      "title": "OIL PRICE WATCH as of Sept. 15, 2026",
+      "url": "https://newsinfo.inquirer.net/2305258/oil-price-watch-as-of-sept-15-2026",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T08:55:00+00:00"
+    },
+    {
+      "title": "WATCH: Sara Duterte impeachment trial | Sept. 15, 2026",
+      "url": "https://newsinfo.inquirer.net/2305251/watch-sara-duterte-impeachment-trial-sept-15-2026",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T08:00:00+00:00"
+    }
+  ],
+  "technology": [
+    {
+      "title": "RFK Jr. headlines sold-out anti-vaccine conference alongside Andrew Wakefield",
+      "url": "https://arstechnica.com/health/2026/09/rfk-jr-headlines-sold-out-anti-vaccine-conference-alongside-andrew-wakefield/",
+      "source": "Ars Technica",
+      "category": "technology",
+      "timestamp": "2026-09-14T22:06:24+00:00"
+    },
+    {
+      "title": "Rocket Lab is seeing red about NASA\\'s decision on a Mars spacecraft",
+      "url": "https://arstechnica.com/space/2026/09/rocket-lab-is-seeing-red-about-nasas-decision-on-a-mars-spacecraft/",
+      "source": "Ars Technica",
+      "category": "technology",
+      "timestamp": "2026-09-14T21:32:22+00:00"
+    },
+    {
+      "title": "AI bots \\\"Timmy,\\\" \\\"Ren,\\\" and \\\"Jackie\\\" are flooding social media with slop",
+      "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+      "source": "Ars Technica",
+      "category": "technology",
+      "timestamp": "2026-09-14T21:04:32+00:00"
+    },
+    {
+      "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
+      "url": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
+      "source": "Ars Technica",
+      "category": "technology",
+      "timestamp": "2026-09-14T19:45:13+00:00"
+    },
+    {
+      "title": "Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots",
+      "url": "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/",
+      "source": "Ars Technica",
+      "category": "technology",
+      "timestamp": "2026-09-14T19:38:46+00:00"
+    },
+    {
+      "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
+      "url": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
+      "source": "Ars Technica",
+      "category": "technology",
+      "timestamp": "2026-09-14T19:28:42+00:00"
+    }
+  ],
+  "science": [
+    {
+      "title": "Scientists discover strange link between low vitamin D and pain",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260914042053.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-09-14T08:52:54"
+    },
+    {
+      "title": "Cancer is rising in younger adults. Faster biological aging may help explain why",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913082200.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-09-14T10:47:07"
+    },
+    {
+      "title": "Chemistry textbooks have been getting this wrong for nearly 100 years",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913082157.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-09-14T10:13:47"
+    },
+    {
+      "title": "Hidden brain wiring may help keep the mind sharp as gray matter shrinks",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913081921.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-09-14T10:23:40"
+    },
+    {
+      "title": "This German submarine sank in 1917. It’s still leaking TNT",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913081919.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-09-14T09:30:51"
+    },
+    {
+      "title": "Scientists find a hidden cause of high blood pressure that routine tests can miss",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913081916.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-09-14T09:57:49"
+    }
+  ],
+  "health": [
+    {
+      "title": "The Pitt is up for 25 Emmys - but the show\\'s biggest fans are real-life doctors",
+      "url": "https://www.bbc.co.uk/news/articles/clyqx0e175ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Health",
+      "category": "health",
+      "timestamp": "2026-09-14T20:39:48+00:00"
+    },
+    {
+      "title": "Staff slept while patient killed at NHS mental health unit",
+      "url": "https://www.bbc.co.uk/news/articles/c750vqp1wlxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Health",
+      "category": "health",
+      "timestamp": "2026-09-14T15:19:26+00:00"
+    },
+    {
+      "title": "Some dentists say more young people are grinding their teeth - are you one of them?",
+      "url": "https://www.bbc.co.uk/news/articles/ckgwe8dk6z6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Health",
+      "category": "health",
+      "timestamp": "2026-09-13T05:55:19+00:00"
+    },
+    {
+      "title": "Fire at nursing home in Chile kills 16 residents",
+      "url": "https://www.bbc.co.uk/news/articles/cy4zpp20w77o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Health",
+      "category": "health",
+      "timestamp": "2026-09-12T19:36:50+00:00"
+    },
+    {
+      "title": "Running costs of vaccine damage scheme more than double amount paid to victims",
+      "url": "https://www.bbc.co.uk/news/articles/cj06762qegmo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Health",
+      "category": "health",
+      "timestamp": "2026-09-11T17:45:14+00:00"
+    },
+    {
+      "title": "Assisted dying: How laws differ around the world",
+      "url": "https://www.bbc.co.uk/news/articles/c1dpwg1lq9yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Health",
+      "category": "health",
+      "timestamp": "2026-09-11T13:46:48+00:00"
+    }
+  ],
+  "sports": [
+    {
+      "title": "\\'Unplayable\\' & \\'almost perfect\\' - Calvert-Lewin set for England recall?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cv1j49220j93o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "category": "sports",
+      "timestamp": "2026-09-14T22:56:28+00:00"
+    },
+    {
+      "title": "Leeds inflict heavy defeat on Newcastle to climb to third",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c8d3el7mvypo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "category": "sports",
+      "timestamp": "2026-09-14T21:31:59+00:00"
+    },
+    {
+      "title": "\\'This is what women in sport look like\\' - Hunt leads response to Sweeney advert",
+      "url": "https://www.bbc.co.uk/sport/athletics/articles/c9dw905jw5no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "category": "sports",
+      "timestamp": "2026-09-14T13:17:47+00:00"
+    },
+    {
+      "title": "Graham & Ure make Pocognoli\\'s first Scotland squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm9dw94zzyx1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "category": "sports",
+      "timestamp": "2026-09-14T21:00:42+00:00"
+    },
+    {
+      "title": "Who has made Troy\\'s Premier League team of the week?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxr50zln2gqro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "category": "sports",
+      "timestamp": "2026-09-14T22:18:48+00:00"
+    },
+    {
+      "title": "Calvert-Lewin stars but Botman struggles - player ratings for Leeds v Newcastle",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6790xr3wvr7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "category": "sports",
+      "timestamp": "2026-09-14T20:54:23+00:00"
+    }
+  ],
+  "politics": [
+    {
+      "title": "Farage says £72m donations are compliant \\'with the law today\\'",
+      "url": "https://www.bbc.co.uk/news/articles/c623xee9dkdyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "category": "politics",
+      "timestamp": "2026-09-14T17:50:29+00:00"
+    },
+    {
+      "title": "Burnham cancels engagements after death of father",
+      "url": "https://www.bbc.co.uk/news/articles/c68xkddgnd47o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "category": "politics",
+      "timestamp": "2026-09-14T18:53:38+00:00"
+    },
+    {
+      "title": "MPs and Lords call for new law to address AI threat to human rights",
+      "url": "https://www.bbc.co.uk/news/articles/cwyzvgj70y4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "category": "politics",
+      "timestamp": "2026-09-14T08:07:08+00:00"
+    },
+    {
+      "title": "Former top civil servant received pay-off of nearly £860,000",
+      "url": "https://www.bbc.co.uk/news/articles/cq7703kjvzlpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "category": "politics",
+      "timestamp": "2026-09-14T16:35:40+00:00"
+    },
+    {
+      "title": "Farm tax a mistake, Lord Blunkett says in call for Burnham \\'rural reset\\'",
+      "url": "https://www.bbc.co.uk/news/articles/ckjrxjqvgjj1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "category": "politics",
+      "timestamp": "2026-09-14T17:46:26+00:00"
+    },
+    {
+      "title": "\\'Culture shift\\' needed in how UK does business, PM urges",
+      "url": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "category": "politics",
+      "timestamp": "2026-09-14T14:22:55+00:00"
+    }
+  ],
+  "entertainment": [
+    {
+      "title": "In pictures: Stars on red carpet at Emmy Awards in LA",
+      "url": "https://www.bbc.co.uk/news/articles/c98r632g6p76o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "category": "entertainment",
+      "timestamp": "2026-09-15T00:04:34+00:00"
+    },
+    {
+      "title": "Emmys 2026: The winners and nominations list",
+      "url": "https://www.bbc.co.uk/news/articles/ce8l9pnkn62o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "category": "entertainment",
+      "timestamp": "2026-09-15T01:25:22+00:00"
+    },
+    {
+      "title": "Oasis confirm Knebworth return plus Manchester and Glasgow live 2027 gigs",
+      "url": "https://www.bbc.co.uk/news/articles/cq89455dlw2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "category": "entertainment",
+      "timestamp": "2026-09-14T15:04:22+00:00"
+    },
+    {
+      "title": "Macklemore dropped from Ed Sheeran tour after \\'Free Palestine\\' speech",
+      "url": "https://www.bbc.co.uk/news/articles/cq0m3pkmgg1ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "category": "entertainment",
+      "timestamp": "2026-09-14T21:10:49+00:00"
+    },
+    {
+      "title": "Israeli minister threatens to revoke filmmakers\\' citizenship over Gaza documentary",
+      "url": "https://www.bbc.co.uk/news/articles/c9vgy8d8256go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "category": "entertainment",
+      "timestamp": "2026-09-14T18:26:20+00:00"
+    },
+    {
+      "title": "Legendary costume designer Bob Mackie dies aged 87",
+      "url": "https://www.bbc.co.uk/news/articles/cmpq04wx8l4eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "category": "entertainment",
+      "timestamp": "2026-09-14T21:29:12+00:00"
+    }
+  ],
+  "esports": [
+    {
+      "title": "Everything announced at BlizzCon 2026: Diablo V, StarCraft, WoW Forever, and more",
+      "url": "https://dotesports.com/overwatch/news/blizzcon-2026-everything-announced",
+      "source": "Dot Esports",
+      "category": "esports",
+      "timestamp": "2026-09-15T02:20:40+00:00"
+    },
+    {
+      "title": "Marathon delays next update to December, featuring permanent PvE mode",
+      "url": "https://dotesports.com/marathon/news/marathon-permanent-pve-delay",
+      "source": "Dot Esports",
+      "category": "esports",
+      "timestamp": "2026-09-14T19:38:05+00:00"
+    },
+    {
+      "title": "How to unlock TR51 Para in Black Ops 7 and Warzone",
+      "url": "https://dotesports.com/call-of-duty/guides/unlock-tr51-para-bo7-warzone",
+      "source": "Dot Esports",
+      "category": "esports",
+      "timestamp": "2026-09-14T16:44:00+00:00"
+    },
+    {
+      "title": "All Sombra and Roadhog rework abilities coming to Overwatch",
+      "url": "https://dotesports.com/overwatch/guides/overwatch-sombra-roadhog-rework",
+      "source": "Dot Esports",
+      "category": "esports",
+      "timestamp": "2026-09-14T14:26:16+00:00"
+    },
+    {
+      "title": "VALORANT overhauls progression with Agent Mastery, new Competitive reward coming in 2027",
+      "url": "https://dotesports.com/valorant/news/valorant-agent-mastery-competitive-rewards",
+      "source": "Dot Esports",
+      "category": "esports",
+      "timestamp": "2026-09-14T13:10:00+00:00"
+    },
+    {
+      "title": "Gauntlet: Glitched lets you build your own VALORANT Agent in a multi-team roguelike",
+      "url": "https://dotesports.com/valorant/news/valorant-gauntlet-glitched-reveal",
+      "source": "Dot Esports",
+      "category": "esports",
+      "timestamp": "2026-09-14T13:05:00+00:00"
+    }
+  ]
+}

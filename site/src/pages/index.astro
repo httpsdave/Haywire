@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Navigation from '../components/Navigation.astro';
+import AboutPanel from '../components/AboutPanel.astro';
+import DonatePanel from '../components/DonatePanel.astro';
+import DateSelector from '../components/DateSelector.astro';
+import NewsSection from '../components/NewsSection.astro';
+import Footer from '../components/Footer.astro';
+
+import {
+  mockWorldNews,
+  mockPhNews,
+  mockTechnology,
+  mockSports,
+  mockScience,
+  mockHealth,
+  mockPolitics,
+  mockEntertainment,
+  mockEsports,
+  mockMemes,
+} from '../utils/data';
+
+const categories = [
+  mockWorldNews,
+  mockPhNews,
+  mockPolitics,
+  mockTechnology,
+  mockSports,
+  mockScience,
+  mockHealth,
+  mockEntertainment,
+  mockEsports,
+  mockMemes,
+];
+---
+
+<BaseLayout title="Haywire — All the News We Could Scrape">
+  <Header />
+  <Navigation currentPage="front-page" />
+  <AboutPanel />
+  <DonatePanel />
+
+  <main class="container">
+    <DateSelector />
+
+    {categories.map((cat, i) => (
+      <>
+        <NewsSection category={cat} />
+        {i < categories.length - 1 && <hr class="section-divider" />}
+      </>
+    ))}
+  </main>
+
+  <Footer />
+</BaseLayout>

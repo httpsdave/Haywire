@@ -1,0 +1,124 @@
+---
+interface Props {
+  currentPage?: string;
+}
+
+const { currentPage = 'front-page' } = Astro.props;
+
+const navItems = [
+  { label: 'Front Page', slug: 'front-page', href: '/' },
+  { label: 'World News', slug: 'world-news', href: '/world-news/' },
+  { label: 'PH News', slug: 'ph-news', href: '/ph-news/' },
+  { label: 'Politics', slug: 'politics', href: '/politics/' },
+  { label: 'Sports', slug: 'sports', href: '/sports/' },
+  { label: 'Technology', slug: 'technology', href: '/technology/' },
+  { label: 'Science', slug: 'science', href: '/science/' },
+  { label: 'Health', slug: 'health', href: '/health/' },
+  { label: 'Entertainment', slug: 'entertainment', href: '/entertainment/' },
+  { label: 'E-Sports', slug: 'esports', href: '/esports/' },
+  { label: 'Memes', slug: 'memes', href: '/memes/' },
+];
+---
+
+<nav class="nav-bar" id="main-nav">
+  <div class="container nav-inner">
+    <span class="nav-logo-mobile">Haywire</span>
+    <div class="nav-links" id="nav-links">
+      {navItems.map(item => (
+        <a
+          href={item.href}
+          class:list={[{ active: currentPage === item.slug }]}
+          id={`nav-${item.slug}`}
+        >
+          {item.label}
+        </a>
+      ))}
+    </div>
+    <div class="nav-right" id="nav-right">
+      <button type="button" id="about-toggle" aria-expanded="false" aria-controls="about-panel">About</button>
+      <button type="button" id="donate-toggle" aria-expanded="false" aria-controls="donate-panel">Donate</button>
+    </div>
+    <button
+      class="nav-hamburger"
+      id="hamburger-btn"
+      aria-label="Toggle menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile dropdown menu -->
+<div class="nav-mobile-menu" id="mobile-menu">
+  {navItems.map(item => (
+    <a
+      href={item.href}
+      class:list={[{ active: currentPage === item.slug }]}
+    >
+      {item.label}
+    </a>
+  ))}
+  <button type="button" class="mobile-about-toggle">About</button>
+  <button type="button" class="mobile-donate-toggle">Donate</button>
+</div>
+
+<script>
+  // Hamburger toggle
+  const hamburger = document.getElementById('hamburger-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  hamburger?.addEventListener('click', () => {
+    const isOpen = mobileMenu?.classList.toggle('open');
+    hamburger.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  // About panel toggle
+  function togglePanel(panelId: string, buttonId: string) {
+    const panel = document.getElementById(panelId);
+    const button = document.getElementById(buttonId);
+    if (panel && button) {
+      const isOpen = panel.classList.toggle('open');
+      button.setAttribute('aria-expanded', String(isOpen));
+      // Close the other panel
+      const otherPanelId = panelId === 'about-panel' ? 'donate-panel' : 'about-panel';
+      const otherButtonId = panelId === 'about-panel' ? 'donate-toggle' : 'about-toggle';
+      const otherPanel = document.getElementById(otherPanelId);
+      const otherButton = document.getElementById(otherButtonId);
+      if (otherPanel?.classList.contains('open')) {
+        otherPanel.classList.remove('open');
+        otherButton?.setAttribute('aria-expanded', 'false');
+      }
+    }
+  }
+
+  document.getElementById('about-toggle')?.addEventListener('click', () => {
+    togglePanel('about-panel', 'about-toggle');
+  });
+
+  document.getElementById('donate-toggle')?.addEventListener('click', () => {
+    togglePanel('donate-panel', 'donate-toggle');
+  });
+
+  // Mobile menu toggles
+  document.querySelector('.mobile-about-toggle')?.addEventListener('click', () => {
+    togglePanel('about-panel', 'about-toggle');
+    mobileMenu?.classList.remove('open');
+    hamburger?.classList.remove('open');
+  });
+
+  document.querySelector('.mobile-donate-toggle')?.addEventListener('click', () => {
+    togglePanel('donate-panel', 'donate-toggle');
+    mobileMenu?.classList.remove('open');
+    hamburger?.classList.remove('open');
+  });
+
+  // Top donate link trigger
+  document.getElementById('donate-trigger-top')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    togglePanel('donate-panel', 'donate-toggle');
+  });
+</script>

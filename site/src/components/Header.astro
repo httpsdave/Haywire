@@ -1,0 +1,31 @@
+---
+import { getCurrentDate, getCurrentTime } from '../utils/data';
+
+const currentDate = getCurrentDate();
+const currentTime = getCurrentTime();
+---
+
+<header class="masthead">
+  <div class="container">
+    <div class="masthead-inner">
+      <div class="masthead-tagline-left">
+        <div class="masthead-tagline-box">
+          "All the News That We<br/>Could Scrape"
+        </div>
+      </div>
+      <div class="masthead-center">
+        <h1 class="masthead-title">Haywire</h1>
+      </div>
+      <div class="masthead-tagline-right">
+        News<br/>Crowdsourced By The Hive<br/>Mind
+      </div>
+    </div>
+    <div class="masthead-meta">
+      <span class="masthead-meta-url">haywire.news</span>
+      <span class="masthead-meta-date">{currentDate}<br/>{currentTime}</span>
+      <span class="masthead-meta-donate">
+        <a href="#" id="donate-trigger-top">▼ Donations Welcome</a>
+      </span>
+    </div>
+  </div>
+</header>

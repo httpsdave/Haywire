@@ -1,0 +1,21 @@
+---
+import { getDateLabels } from '../utils/data';
+
+interface Props {
+  activeDate?: string;
+}
+
+const { activeDate } = Astro.props;
+const dateLabels = getDateLabels();
+---
+
+<div class="date-selector" id="date-selector">
+  {dateLabels.map(({ label, slug, isToday }) => (
+    <a
+      href={isToday ? '/' : `/archive/${slug}/`}
+      class:list={[{ active: activeDate ? slug === activeDate : isToday }]}
+    >
+      {label}
+    </a>
+  ))}
+</div>
