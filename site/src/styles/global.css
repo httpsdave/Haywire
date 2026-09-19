@@ -29,6 +29,7 @@
 
   /* Typography */
   --font-masthead: 'UnifrakturMaguntia', cursive;
+  --font-masthead-title: 'Old English BT', 'Old English Text MT', 'UnifrakturMaguntia', cursive;
   --font-headline: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --font-body: 'Source Serif 4', Georgia, serif;
   --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -146,7 +147,7 @@ ul, ol {
 }
 
 .masthead-title {
-  font-family: var(--font-masthead);
+  font-family: var(--font-masthead-title);
   font-size: var(--masthead-size);
   font-weight: 400;
   line-height: 1.1;
@@ -388,28 +389,35 @@ ul, ol {
   margin-bottom: var(--space-lg);
 }
 
-.date-selector a {
+.date-selector a, .date-selector button {
   display: inline-block;
-  padding: var(--space-xs) var(--space-sm);
+  padding: 0 !important;
+  margin: 0 var(--space-xs);
   font-family: var(--font-ui);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: var(--color-text-secondary);
-  border: 1px solid var(--color-border);
-  border-radius: 3px;
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  cursor: pointer;
+  text-decoration: none;
   transition: all var(--transition-fast);
 }
 
-.date-selector a:hover {
-  background: var(--color-text);
-  color: var(--color-white);
-  border-color: var(--color-text);
+.date-selector a:hover, .date-selector button:hover {
+  text-decoration: underline;
+  color: var(--color-text);
+  background: transparent !important;
 }
 
 .date-selector a.active {
-  background: var(--color-black);
-  color: var(--color-white);
-  border-color: var(--color-black);
+  color: var(--color-black);
+  text-decoration: underline;
+  font-weight: 700;
+  border: none !important;
+  background: transparent !important;
 }
 
 /* ============================================================
@@ -717,9 +725,9 @@ ul, ol {
     gap: 2px;
   }
 
-  .date-selector a {
-    font-size: 0.65rem;
-    padding: 2px 5px;
+  .date-selector a, .date-selector button {
+    font-size: 0.75rem;
+    margin: 0 2px;
   }
 
   .category-full-item {

@@ -7,10 +7,12 @@ interface Props {
 
 const { activeDate } = Astro.props;
 const dateLabels = getDateLabels();
+const visibleLabels = dateLabels.slice(0, 2);
+const hiddenLabels = dateLabels.slice(2);
 ---
 
-<div class="date-selector" id="date-selector">
-  {dateLabels.map(({ label, slug, isToday }) => (
+<div class="date-selector">
+  {visibleLabels.map(({ label, slug, isToday }) => (
     <a
       href={isToday ? '/' : `/archive/${slug}/`}
       class:list={[{ active: activeDate ? slug === activeDate : isToday }]}
@@ -18,4 +20,17 @@ const dateLabels = getDateLabels();
       {label}
     </a>
   ))}
+  {hiddenLabels.length > 0 && (
+    <button type="button" onclick="this.nextElementSibling.style.display='inline'; this.style.display='none';">...</button>
+  )}
+  <span style="display: none;">
+    {hiddenLabels.map(({ label, slug, isToday }) => (
+      <a
+        href={isToday ? '/' : `/archive/${slug}/`}
+        class:list={[{ active: activeDate ? slug === activeDate : isToday }]}
+      >
+        {label}
+      </a>
+    ))}
+  </span>
 </div>
