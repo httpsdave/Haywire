@@ -36,6 +36,12 @@ const { title = 'Haywire — Crowdsourced News', description = 'Crowdsourced new
   <!-- Styles -->
   <style is:global>
     @import '../styles/global.css';
+    
+    /* FORCE override to bust Service Worker cache */
+    .container {
+      width: 95% !important;
+      max-width: 2400px !important;
+    }
   </style>
 </head>
 <body>

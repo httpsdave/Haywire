@@ -103,10 +103,10 @@ ul, ol {
 
 /* --- Container --- */
 .container {
-  width: 100%;
-  max-width: var(--max-width);
+  width: 95%;
+  max-width: 2400px;
   margin: 0 auto;
-  padding: 0 var(--space-md);
+  padding: 0;
 }
 
 /* ============================================================
@@ -768,4 +768,47 @@ ul, ol {
     background: white;
     font-size: 12pt;
   }
+}
+
+/* ============================================================
+   RESPONSIVE — Large Desktop
+   ============================================================ */
+@media (min-width: 1200px) {
+  :root {
+    --masthead-size: 3.5rem;
+    --headline-featured: 1.7rem;
+    --headline-sidebar: 1rem;
+    --body-size: 1rem;
+    --nav-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --masthead-size: 4rem;
+    --headline-featured: 2rem;
+    --headline-sidebar: 1.15rem;
+    --body-size: 1.1rem;
+    --timestamp-size: 0.85rem;
+    --nav-size: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --section-gap: 2rem;
+  }
+  .masthead-title { font-size: 4rem !important; }
+}
+
+@media (min-width: 1920px) {
+  :root {
+    --masthead-size: 4.8rem;
+    --headline-featured: 2.4rem;
+    --headline-sidebar: 1.3rem;
+    --body-size: 1.25rem;
+    --timestamp-size: 0.95rem;
+    --nav-size: 1.1rem;
+    --space-md: 2rem;
+    --space-lg: 2.5rem;
+    --section-gap: 3rem;
+  }
+  .masthead-title { font-size: 4.8rem !important; }
 }

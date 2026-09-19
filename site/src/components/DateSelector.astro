@@ -11,23 +11,55 @@ const visibleLabels = dateLabels.slice(0, 2);
 const hiddenLabels = dateLabels.slice(2);
 ---
 
+<style is:global>
+  .date-selector-clean-item {
+    border: none !important;
+    background: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    padding: 0 !important;
+    margin: 0 4px !important;
+    font-family: var(--font-ui) !important;
+    font-size: 0.85rem !important;
+    cursor: pointer !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    color: var(--color-text-secondary) !important;
+    font-weight: 500 !important;
+  }
+  
+  .date-selector-clean-item:hover {
+    text-decoration: underline !important;
+    color: var(--color-black) !important;
+    background: transparent !important;
+  }
+  
+  .date-selector-clean-item.active {
+    font-weight: 700 !important;
+    color: var(--color-black) !important;
+    text-decoration: underline !important;
+  }
+</style>
+
 <div class="date-selector">
   {visibleLabels.map(({ label, slug, isToday }) => (
     <a
       href={isToday ? '/' : `/archive/${slug}/`}
-      class:list={[{ active: activeDate ? slug === activeDate : isToday }]}
+      class:list={['date-selector-clean-item', { active: activeDate ? slug === activeDate : isToday }]}
     >
       {label}
     </a>
   ))}
   {hiddenLabels.length > 0 && (
-    <button type="button" onclick="this.nextElementSibling.style.display='inline'; this.style.display='none';">...</button>
+    <button type="button" class="date-selector-clean-item" onclick="this.nextElementSibling.style.display='inline'; this.style.display='none';">...</button>
   )}
   <span style="display: none;">
     {hiddenLabels.map(({ label, slug, isToday }) => (
       <a
         href={isToday ? '/' : `/archive/${slug}/`}
-        class:list={[{ active: activeDate ? slug === activeDate : isToday }]}
+        class:list={['date-selector-clean-item', { active: activeDate ? slug === activeDate : isToday }]}
       >
         {label}
       </a>

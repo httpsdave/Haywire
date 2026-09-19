@@ -1,4 +1,4 @@
-const CACHE_NAME = 'haywire-v1';
+const CACHE_NAME = 'haywire-v3';
 const STATIC_ASSETS = [
   '/',
   '/manifest.json',
