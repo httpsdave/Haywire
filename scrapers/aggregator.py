@@ -12,7 +12,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 
-from config import CATEGORIES, CATEGORY_DISPLAY_NAMES, CATEGORY_SLUGS, DATA_DIR, MAX_ARTICLES_PER_CATEGORY
+from config import CATEGORIES, CATEGORY_DISPLAY_NAMES, CATEGORY_SLUGS, DATA_DIR, SITE_DATA_DIR, MAX_ARTICLES_PER_CATEGORY
 
 logger = logging.getLogger(__name__)
 
@@ -158,8 +158,59 @@ def aggregate(all_articles: list[dict]) -> dict[str, list[dict]]:
     for cat, articles in grouped.items():
         logger.info(f"  {CATEGORY_DISPLAY_NAMES.get(cat, cat)}: {len(articles)} articles")
 
-    # Step 4: Save to JSON
+    # Step 4: Save to JSON (data/ directory for archival)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     save_json(grouped, today)
 
+    # Step 5: Save to site/src/data/ for Astro build
+    save_site_data(grouped, today)
+
     return grouped
+
+
+def save_site_data(data: dict, date_str: str):
+    """Save category JSON files to the Astro site's data directory for build-time consumption."""
+    os.makedirs(SITE_DATA_DIR, exist_ok=True)
+
+    all_categories = []
+
+    for category, articles in data.items():
+        limited = articles[:MAX_ARTICLES_PER_CATEGORY]
+
+        # Clean up internal fields
+        clean_articles = []
+        for a in limited:
+            clean = {k: v for k, v in a.items() if not k.startswith("_")}
+            # Normalize source_type to sourceType for TypeScript
+            if "source_type" in clean:
+                clean["sourceType"] = clean.pop("source_type")
+            if "comment_count" in clean:
+                clean["commentCount"] = clean.pop("comment_count")
+            if "is_featured" in clean:
+                clean["isFeatured"] = clean.pop("is_featured")
+            clean_articles.append(clean)
+
+        cat_data = {
+            "name": CATEGORY_DISPLAY_NAMES.get(category, category),
+            "slug": CATEGORY_SLUGS.get(category, category),
+            "articles": clean_articles,
+        }
+        all_categories.append(cat_data)
+
+        # Also save individual category files
+        filepath = os.path.join(SITE_DATA_DIR, f"{CATEGORY_SLUGS.get(category, category)}.json")
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(cat_data, f, indent=2, ensure_ascii=False)
+
+    # Save combined file
+    combined = {
+        "date": date_str,
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "categories": all_categories,
+    }
+    combined_path = os.path.join(SITE_DATA_DIR, "all_news.json")
+    with open(combined_path, "w", encoding="utf-8") as f:
+        json.dump(combined, f, indent=2, ensure_ascii=False)
+
+    logger.info(f"Site data saved to {SITE_DATA_DIR} ({len(all_categories)} categories)")
+

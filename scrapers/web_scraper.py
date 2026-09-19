@@ -41,6 +41,12 @@ def scrape_target(target) -> list[dict]:
 
         soup = BeautifulSoup(response.text, "html.parser")
 
+        # Try to get the site's og:image as a fallback thumbnail
+        site_og_image = None
+        og_tag = soup.find("meta", property="og:image")
+        if og_tag and og_tag.get("content"):
+            site_og_image = og_tag["content"]
+
         # Find article elements using configured selectors
         if target.selector_title:
             elements = soup.select(target.selector_title)
@@ -59,6 +65,11 @@ def scrape_target(target) -> list[dict]:
             if link.startswith("/"):
                 link = f"{target.url.rstrip('/')}{link}"
 
+            # Try to find a nearby image
+            thumbnail = _find_article_thumbnail(el, target.url)
+            if not thumbnail:
+                thumbnail = site_og_image
+
             article = {
                 "id": generate_article_id(link, title),
                 "title": title,
@@ -70,7 +81,7 @@ def scrape_target(target) -> list[dict]:
                 "score": 0,
                 "comment_count": 0,
                 "is_featured": False,
-                "thumbnail": None,
+                "thumbnail": thumbnail,
             }
             articles.append(article)
 
@@ -80,6 +91,21 @@ def scrape_target(target) -> list[dict]:
         logger.error(f"Error scraping {target.name}: {e}")
 
     return articles
+
+
+def _find_article_thumbnail(element, base_url: str) -> str | None:
+    """Try to find a thumbnail image near the article title element."""
+    # Check parent article/container for an image
+    parent = element.find_parent(["article", "div", "li", "section"])
+    if parent:
+        img = parent.find("img")
+        if img:
+            src = img.get("src") or img.get("data-src") or img.get("data-lazy-src")
+            if src:
+                if src.startswith("/"):
+                    src = f"{base_url.rstrip('/')}{src}"
+                return src
+    return None
 
 
 def scrape_all_targets() -> list[dict]:

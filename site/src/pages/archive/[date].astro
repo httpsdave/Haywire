@@ -9,7 +9,7 @@ import NewsSection from '../../components/NewsSection.astro';
 import Footer from '../../components/Footer.astro';
 
 import {
-  allCategories,
+  loadArchiveCategories,
   getDateLabels,
 } from '../../utils/data';
 
@@ -26,9 +26,8 @@ export function getStaticPaths() {
 
 const { date } = Astro.params;
 
-// In production, we'd load data from JSON files for this date
-// For now, use mock data (same as today)
-const categories = allCategories;
+// Load data for this archive date
+const categories = loadArchiveCategories(date!);
 
 const dateObj = new Date(date + 'T00:00:00');
 const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];

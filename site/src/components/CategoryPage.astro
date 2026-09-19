@@ -7,6 +7,7 @@ import DonatePanel from '../components/DonatePanel.astro';
 import DateSelector from '../components/DateSelector.astro';
 import Footer from '../components/Footer.astro';
 import type { CategoryData } from '../utils/data';
+import { formatTimestamp } from '../utils/data';
 
 interface Props {
   category: CategoryData;
@@ -32,12 +33,27 @@ const otherArticles = category.articles.filter(a => a.id !== featured?.id);
         <h2>{category.name}</h2>
       </div>
 
+      {category.articles.length === 0 && (
+        <div class="no-articles">
+          <p>No articles available yet. Check back soon!</p>
+        </div>
+      )}
+
       {featured && (
         <div class="section-content" style="margin-bottom: var(--space-lg);">
           <div class="featured-article">
             <a href={featured.url} target="_blank" rel="noopener noreferrer">
+              {featured.thumbnail && (
+                <img
+                  src={featured.thumbnail}
+                  alt={featured.title}
+                  class="featured-article-image"
+                  loading="lazy"
+                  onerror="this.style.display='none'"
+                />
+              )}
               <div class="featured-article-title">{featured.title}</div>
-              <div class="featured-article-meta">({featured.timestamp})</div>
+              <div class="featured-article-meta">({formatTimestamp(featured.timestamp)})</div>
             </a>
           </div>
           <div class="article-sidebar">
@@ -46,7 +62,7 @@ const otherArticles = category.articles.filter(a => a.id !== featured?.id);
                 <a href={article.url} target="_blank" rel="noopener noreferrer">
                   <div class="article-item-title">{article.title}</div>
                   <div class="article-item-meta">
-                    ({article.timestamp})
+                    ({formatTimestamp(article.timestamp)})
                     <span class="article-item-source"> — {article.source}</span>
                   </div>
                 </a>
@@ -64,7 +80,7 @@ const otherArticles = category.articles.filter(a => a.id !== featured?.id);
               <div class="category-full-title">{article.title}</div>
             </a>
             <div class="category-full-meta">
-              {article.timestamp} — <span class="article-item-source">{article.source}</span>
+              {formatTimestamp(article.timestamp)} — <span class="article-item-source">{article.source}</span>
             </div>
           </div>
         ))}
@@ -74,3 +90,13 @@ const otherArticles = category.articles.filter(a => a.id !== featured?.id);
 
   <Footer />
 </BaseLayout>
+
+<style>
+  .no-articles {
+    text-align: center;
+    padding: 2rem;
+    font-family: var(--font-ui);
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+</style>

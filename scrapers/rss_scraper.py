@@ -63,6 +63,9 @@ def parse_feed(feed_config) -> list[dict]:
             if timestamp < cutoff:
                 continue
 
+            # Extract thumbnail from media tags
+            thumbnail = _extract_thumbnail(entry)
+
             article = {
                 "id": generate_article_id(link, title),
                 "title": title,
@@ -74,7 +77,7 @@ def parse_feed(feed_config) -> list[dict]:
                 "score": 0,
                 "comment_count": 0,
                 "is_featured": False,
-                "thumbnail": None,
+                "thumbnail": thumbnail,
             }
             articles.append(article)
 
@@ -82,6 +85,55 @@ def parse_feed(feed_config) -> list[dict]:
         logger.error(f"Error parsing feed {feed_config.name}: {e}")
 
     return articles
+
+
+def _extract_thumbnail(entry) -> str | None:
+    """Extract thumbnail URL from RSS entry media tags."""
+    # Try media_content (e.g., <media:content url="..."/>)
+    media_content = entry.get("media_content", [])
+    if media_content:
+        for media in media_content:
+            url = media.get("url", "")
+            media_type = media.get("type", "")
+            if url and ("image" in media_type or media_type == "" or url.endswith(('.jpg', '.jpeg', '.png', '.webp', '.gif'))):
+                return url
+
+    # Try media_thumbnail (e.g., <media:thumbnail url="..."/>)
+    media_thumbnails = entry.get("media_thumbnail", [])
+    if media_thumbnails:
+        for thumb in media_thumbnails:
+            url = thumb.get("url", "")
+            if url:
+                return url
+
+    # Try enclosure (e.g., <enclosure url="..." type="image/jpeg"/>)
+    enclosures = entry.get("enclosures", [])
+    if enclosures:
+        for enc in enclosures:
+            url = enc.get("href", "") or enc.get("url", "")
+            enc_type = enc.get("type", "")
+            if url and "image" in enc_type:
+                return url
+
+    # Try content for inline images
+    content = entry.get("content", [])
+    if content:
+        html = content[0].get("value", "")
+        if html:
+            import re
+            img_match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', html)
+            if img_match:
+                return img_match.group(1)
+
+    # Try summary/description for inline images
+    summary = entry.get("summary", "")
+    if summary:
+        import re
+        img_match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', summary)
+        if img_match:
+            return img_match.group(1)
+
+    return None
 
 
 def scrape_all_feeds() -> list[dict]:

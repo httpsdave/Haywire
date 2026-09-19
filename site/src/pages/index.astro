@@ -8,31 +8,9 @@ import DateSelector from '../components/DateSelector.astro';
 import NewsSection from '../components/NewsSection.astro';
 import Footer from '../components/Footer.astro';
 
-import {
-  mockWorldNews,
-  mockPhNews,
-  mockTechnology,
-  mockSports,
-  mockScience,
-  mockHealth,
-  mockPolitics,
-  mockEntertainment,
-  mockEsports,
-  mockMemes,
-} from '../utils/data';
+import { loadAllCategories } from '../utils/data';
 
-const categories = [
-  mockWorldNews,
-  mockPhNews,
-  mockPolitics,
-  mockTechnology,
-  mockSports,
-  mockScience,
-  mockHealth,
-  mockEntertainment,
-  mockEsports,
-  mockMemes,
-];
+const categories = loadAllCategories();
 ---
 
 <BaseLayout title="Haywire — All the News We Could Scrape">

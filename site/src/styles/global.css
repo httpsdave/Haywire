@@ -504,6 +504,15 @@ ul, ol {
   color: var(--color-text-muted);
 }
 
+.featured-article-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: var(--space-sm);
+  border-radius: 2px;
+  object-fit: cover;
+}
+
 /* --- Article Sidebar List --- */
 .article-sidebar {
   display: flex;

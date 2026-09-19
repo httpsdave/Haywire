@@ -72,6 +72,107 @@ jobs:
           name: news-data
           path: data/
 
+      - name: Copy data to site
+        if: needs.scrape.result == 'success'
+        run: |
+          mkdir -p site/src/data
+          # Find today's date directory and copy JSON files to site/src/data/
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ -d "data/$TODAY" ]; then
+            echo "Copying data from data/$TODAY/"
+            # Run the aggregator's site-data export logic via a simple script
+            python3 -c "
+import json, os, hashlib
+from datetime import datetime, timezone
+
+DATA_DIR = 'data/$TODAY'
+SITE_DIR = 'site/src/data'
+SLUG_MAP = {
+    'world_news': 'world-news', 'ph_news': 'ph-news', 'technology': 'technology',
+    'sports': 'sports', 'science': 'science', 'health': 'health',
+    'politics': 'politics', 'entertainment': 'entertainment',
+    'esports': 'esports', 'memes': 'memes',
+}
+
+categories = []
+for fname in os.listdir(DATA_DIR):
+    if not fname.endswith('.json') or fname == 'metadata.json':
+        continue
+    cat_key = fname.replace('.json', '')
+    with open(os.path.join(DATA_DIR, fname), 'r') as f:
+        raw = json.load(f)
+    slug = raw.get('slug', SLUG_MAP.get(cat_key, cat_key))
+    articles = raw.get('articles', [])
+    # Normalize field names for TypeScript
+    clean = []
+    for a in articles:
+        c = dict(a)
+        if 'source_type' in c: c['sourceType'] = c.pop('source_type')
+        if 'comment_count' in c: c['commentCount'] = c.pop('comment_count')
+        if 'is_featured' in c: c['isFeatured'] = c.pop('is_featured')
+        c.pop('_rank', None)
+        clean.append(c)
+    cat_data = {'name': raw.get('display_name', cat_key), 'slug': slug, 'articles': clean}
+    categories.append(cat_data)
+    with open(os.path.join(SITE_DIR, slug + '.json'), 'w') as f:
+        json.dump(cat_data, f, indent=2, ensure_ascii=False)
+
+combined = {'date': '$TODAY', 'updated_at': datetime.now(timezone.utc).isoformat(), 'categories': categories}
+with open(os.path.join(SITE_DIR, 'all_news.json'), 'w') as f:
+    json.dump(combined, f, indent=2, ensure_ascii=False)
+print(f'Copied {len(categories)} categories to {SITE_DIR}')
+"
+          else
+            echo "No data directory found for $TODAY, listing available:"
+            ls data/ || echo "data/ is empty"
+            # Try the most recent date directory
+            LATEST=$(ls -d data/20* 2>/dev/null | sort -r | head -1)
+            if [ -n "$LATEST" ]; then
+              echo "Using latest: $LATEST"
+              TODAY=$(basename $LATEST)
+              python3 -c "
+import json, os
+from datetime import datetime, timezone
+
+DATA_DIR = '$LATEST'
+SITE_DIR = 'site/src/data'
+SLUG_MAP = {
+    'world_news': 'world-news', 'ph_news': 'ph-news', 'technology': 'technology',
+    'sports': 'sports', 'science': 'science', 'health': 'health',
+    'politics': 'politics', 'entertainment': 'entertainment',
+    'esports': 'esports', 'memes': 'memes',
+}
+
+categories = []
+for fname in os.listdir(DATA_DIR):
+    if not fname.endswith('.json') or fname == 'metadata.json':
+        continue
+    cat_key = fname.replace('.json', '')
+    with open(os.path.join(DATA_DIR, fname), 'r') as f:
+        raw = json.load(f)
+    slug = raw.get('slug', SLUG_MAP.get(cat_key, cat_key))
+    articles = raw.get('articles', [])
+    clean = []
+    for a in articles:
+        c = dict(a)
+        if 'source_type' in c: c['sourceType'] = c.pop('source_type')
+        if 'comment_count' in c: c['commentCount'] = c.pop('comment_count')
+        if 'is_featured' in c: c['isFeatured'] = c.pop('is_featured')
+        c.pop('_rank', None)
+        clean.append(c)
+    cat_data = {'name': raw.get('display_name', cat_key), 'slug': slug, 'articles': clean}
+    categories.append(cat_data)
+    with open(os.path.join(SITE_DIR, slug + '.json'), 'w') as f:
+        json.dump(cat_data, f, indent=2, ensure_ascii=False)
+
+combined = {'date': '$TODAY', 'updated_at': datetime.now(timezone.utc).isoformat(), 'categories': categories}
+with open(os.path.join(SITE_DIR, 'all_news.json'), 'w') as f:
+    json.dump(combined, f, indent=2, ensure_ascii=False)
+print(f'Copied {len(categories)} categories to {SITE_DIR}')
+"
+            fi
+          fi
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:

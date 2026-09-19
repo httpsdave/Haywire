@@ -1,6 +1,7 @@
 ---
 import CategoryPage from '../components/CategoryPage.astro';
-import { mockPhNews } from '../utils/data';
+import { loadCategory } from '../utils/data';
+const category = loadCategory('ph-news');
 ---
 
-<CategoryPage category={mockPhNews} navSlug="ph-news" />
+<CategoryPage category={category} navSlug="ph-news" />

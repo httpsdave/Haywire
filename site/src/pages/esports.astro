@@ -1,6 +1,7 @@
 ---
 import CategoryPage from '../components/CategoryPage.astro';
-import { mockEsports } from '../utils/data';
+import { loadCategory } from '../utils/data';
+const category = loadCategory('esports');
 ---
 
-<CategoryPage category={mockEsports} navSlug="esports" />
+<CategoryPage category={category} navSlug="esports" />

@@ -1,5 +1,6 @@
 ---
 import type { Article, CategoryData } from '../utils/data';
+import { formatTimestamp } from '../utils/data';
 
 interface Props {
   category: CategoryData;
@@ -8,8 +9,12 @@ interface Props {
 
 const { category, showMoreLink = true } = Astro.props;
 
+if (!category || !category.articles || category.articles.length === 0) {
+  return;
+}
+
 const featured = category.articles.find(a => a.isFeatured) || category.articles[0];
-const sidebarArticles = category.articles.filter(a => a.id !== featured?.id);
+const sidebarArticles = category.articles.filter(a => a.id !== featured?.id).slice(0, 5);
 ---
 
 <section class="news-section" id={`section-${category.slug}`}>
@@ -24,8 +29,17 @@ const sidebarArticles = category.articles.filter(a => a.id !== featured?.id);
     {featured && (
       <div class="featured-article">
         <a href={featured.url} target="_blank" rel="noopener noreferrer">
+          {featured.thumbnail && (
+            <img
+              src={featured.thumbnail}
+              alt={featured.title}
+              class="featured-article-image"
+              loading="lazy"
+              onerror="this.style.display='none'"
+            />
+          )}
           <div class="featured-article-title">{featured.title}</div>
-          <div class="featured-article-meta">({featured.timestamp})</div>
+          <div class="featured-article-meta">({formatTimestamp(featured.timestamp)})</div>
         </a>
       </div>
     )}
@@ -36,7 +50,7 @@ const sidebarArticles = category.articles.filter(a => a.id !== featured?.id);
           <a href={article.url} target="_blank" rel="noopener noreferrer">
             <div class="article-item-title">{article.title}</div>
             <div class="article-item-meta">
-              ({article.timestamp})
+              ({formatTimestamp(article.timestamp)})
               {article.source && <span class="article-item-source"> — {article.source}</span>}
             </div>
           </a>
