@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updated_at": "2026-09-27T10:23:52.310083+00:00",
+  "updated_at": "2026-09-27T10:47:28.705665+00:00",
   "categories": [
     {
       "name": "Philippine News",
@@ -297,19 +297,6 @@
           "sourceType": "rss",
           "commentCount": 0,
           "isFeatured": false
-        },
-        {
-          "id": "398feb958123",
-          "title": "Scientists may have misread a 2-billion-year-old clue about Earth",
-          "url": "https://www.sciencedaily.com/releases/2026/09/260925093201.htm",
-          "source": "Science Daily",
-          "category": "science",
-          "timestamp": "2026-09-26T10:38:02+00:00",
-          "score": 0,
-          "thumbnail": null,
-          "sourceType": "rss",
-          "commentCount": 0,
-          "isFeatured": false
         }
       ]
     },
@@ -498,19 +485,6 @@
           "sourceType": "rss",
           "commentCount": 0,
           "isFeatured": false
-        },
-        {
-          "id": "3230b92a24f5",
-          "title": "Tesla’s big electric truck faces an even bigger infrastructure challenge",
-          "url": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
-          "source": "Ars Technica",
-          "category": "technology",
-          "timestamp": "2026-09-26T10:45:09+00:00",
-          "score": 0,
-          "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/teslasemi-1024x648.jpg",
-          "sourceType": "rss",
-          "commentCount": 0,
-          "isFeatured": false
         }
       ]
     },
@@ -518,6 +492,32 @@
       "name": "World News",
       "slug": "world-news",
       "articles": [
+        {
+          "id": "16f3a068546c",
+          "title": "UK politics live: Burnham says he wants to fight next election on plan for new taxes to pay for free social care in England",
+          "url": "https://www.theguardian.com/politics/live/2026/sep/27/uk-politics-live-labour-party-conference-andy-burnham-angela-rayner-latest-news-updates",
+          "source": "The Guardian",
+          "category": "world_news",
+          "timestamp": "2026-09-27T10:38:04+00:00",
+          "score": 0,
+          "thumbnail": "https://i.guim.co.uk/img/media/d507188f741c7151cf5285eab464b114ca903f1f/247_0_4630_3704/master/4630.jpg?width=140&quality=85&auto=format&fit=max&s=2f3edc60272cbeef3baf0a0cf70f29a1",
+          "sourceType": "rss",
+          "commentCount": 0,
+          "isFeatured": true
+        },
+        {
+          "id": "0d9695b1f259",
+          "title": "‘My hands are empty’: Displaced Palestinians struggle to survive",
+          "url": "https://www.aljazeera.com/features/2026/9/27/my-hands-are-empty-displaced-palestinians-struggle-to-survive?traffic_source=rss",
+          "source": "Al Jazeera",
+          "category": "world_news",
+          "timestamp": "2026-09-27T10:26:21+00:00",
+          "score": 0,
+          "thumbnail": null,
+          "sourceType": "rss",
+          "commentCount": 0,
+          "isFeatured": false
+        },
         {
           "id": "7dde3186edc5",
           "title": "Israeli minister Bezalel Smotrich calls for war in occupied West Bank",
@@ -529,7 +529,7 @@
           "thumbnail": null,
           "sourceType": "rss",
           "commentCount": 0,
-          "isFeatured": true
+          "isFeatured": false
         },
         {
           "id": "bc5286c84b92",
@@ -584,19 +584,6 @@
           "isFeatured": false
         },
         {
-          "id": "16f3a068546c",
-          "title": "UK politics live: Burnham says he wants to fight next election on plan for new taxes to pay for free social care in England",
-          "url": "https://www.theguardian.com/politics/live/2026/sep/27/uk-politics-live-labour-party-conference-andy-burnham-angela-rayner-latest-news-updates",
-          "source": "The Guardian",
-          "category": "world_news",
-          "timestamp": "2026-09-27T09:51:16+00:00",
-          "score": 0,
-          "thumbnail": "https://i.guim.co.uk/img/media/d507188f741c7151cf5285eab464b114ca903f1f/247_0_4630_3704/master/4630.jpg?width=140&quality=85&auto=format&fit=max&s=2f3edc60272cbeef3baf0a0cf70f29a1",
-          "sourceType": "rss",
-          "commentCount": 0,
-          "isFeatured": false
-        },
-        {
           "id": "655ef7b25610",
           "title": "Plane carrying DR Congo military delegation crashes",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/plane-carrying-dr-congo-military-delegation-crashes?traffic_source=rss",
@@ -610,8 +597,8 @@
           "isFeatured": false
         },
         {
-          "id": "b19132c363fa",
-          "title": "Malaysia’s Eain, Sivasangari book LA28 Olympics berth with Asian Games gold",
+          "id": "b849d5a6d1c0",
+          "title": "Malaysia’s Ng, Sivasangari book LA28 Olympics berth with Asian Games gold",
           "url": "https://www.aljazeera.com/sports/2026/9/27/malaysias-ng-subramaniam-book-la28-olympics-berth-with-asian-games-gold?traffic_source=rss",
           "source": "Al Jazeera",
           "category": "world_news",
@@ -761,19 +748,6 @@
           "timestamp": "2026-09-27T08:00:59+00:00",
           "score": 0,
           "thumbnail": "https://i.guim.co.uk/img/media/e63e3621a8c57a756046e5ff6dfe8398152f832e/0_236_2421_1937/master/2421.jpg?width=140&quality=85&auto=format&fit=max&s=a9a87435a8a7bd2b4b5061b3fb33af07",
-          "sourceType": "rss",
-          "commentCount": 0,
-          "isFeatured": false
-        },
-        {
-          "id": "b91081f09467",
-          "title": "NHS trust removes 10 staff from duty over Noah Woods data breach",
-          "url": "https://www.theguardian.com/uk-news/2026/sep/27/nhs-trust-apologises-over-unauthorised-access-to-noah-woods-medical-records",
-          "source": "The Guardian",
-          "category": "world_news",
-          "timestamp": "2026-09-27T07:51:16+00:00",
-          "score": 0,
-          "thumbnail": "https://i.guim.co.uk/img/media/88c1de09840d2ae7c9c192dab0872de4c95cd989/0_394_1349_1078/master/1349.jpg?width=140&quality=85&auto=format&fit=max&s=70a1b506aae7c36dd2dc400fc7c32b13",
           "sourceType": "rss",
           "commentCount": 0,
           "isFeatured": false
