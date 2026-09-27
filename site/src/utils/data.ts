@@ -28,6 +28,28 @@ interface AllNewsData {
   categories: CategoryData[];
 }
 
+// --- PHT Timezone Helpers ---
+// All dates in Haywire use Philippine Time (UTC+8) for consistency.
+
+const PHT_OFFSET_MS = 8 * 60 * 60 * 1000;
+
+/** Get the current date in PHT as YYYY-MM-DD */
+function getPHTDateString(d: Date = new Date()): string {
+  const pht = new Date(d.getTime() + PHT_OFFSET_MS);
+  return pht.toISOString().split('T')[0];
+}
+
+/** Get a Date's PHT date string from an ISO timestamp */
+function articleDatePHT(isoString: string): string {
+  try {
+    const d = new Date(isoString);
+    if (isNaN(d.getTime())) return '';
+    return getPHTDateString(d);
+  } catch {
+    return '';
+  }
+}
+
 // --- Data Loading ---
 
 let _cachedData: CategoryData[] | null = null;
@@ -99,22 +121,35 @@ export function loadAllCategories(): CategoryData[] {
   return CATEGORY_ORDER.map(slug => emptyCategory(slug));
 }
 
-/** Load categories for a specific archive date */
+/** Load categories for a specific archive date (YYYY-MM-DD in PHT).
+ *  Filters articles from the main dataset by their timestamp's PHT date.
+ */
 export function loadArchiveCategories(date: string): CategoryData[] {
-  // Try to load date-specific data
-  try {
-    const dateFiles = import.meta.glob<{ default: CategoryData }>('../data/archive/*/all_news.json', { eager: true });
-    const key = Object.keys(dateFiles).find(k => k.includes(date));
-    if (key) {
-      const data = dateFiles[key] as unknown as AllNewsData;
-      if (data && data.categories) return data.categories;
-    }
-  } catch (e) {
-    // Fall through
+  const all = loadAllNews();
+  if (all.length === 0) {
+    return CATEGORY_ORDER.map(slug => emptyCategory(slug));
   }
 
-  // Fall back to current data (same behavior as before for now)
-  return loadAllCategories();
+  // Filter each category's articles to only those published on the given date (PHT)
+  const filtered: CategoryData[] = all.map(cat => {
+    const dateArticles = cat.articles.filter(a => articleDatePHT(a.timestamp) === date);
+
+    // Re-mark the first article as featured if there are results
+    const articles = dateArticles.map((a, i) => ({
+      ...a,
+      isFeatured: i === 0,
+    }));
+
+    return {
+      name: cat.name,
+      slug: cat.slug,
+      articles,
+    };
+  });
+
+  // Only return categories that have articles for that date
+  const withArticles = filtered.filter(c => c.articles.length > 0);
+  return withArticles.length > 0 ? withArticles : filtered;
 }
 
 // --- Format Helpers ---
@@ -124,49 +159,65 @@ export function formatTimestamp(isoString: string): string {
     const d = new Date(isoString);
     if (isNaN(d.getTime())) return isoString;
 
-    const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-    const month = months[d.getMonth()];
-    const day = d.getDate();
-    const year = d.getFullYear();
-    let hours = d.getHours();
-    const ampm = hours >= 12 ? 'PM' : 'AM';
-    hours = hours % 12 || 12;
-    const mins = d.getMinutes().toString().padStart(2, '0');
-    return `${month} ${day}, ${year} | ${hours}:${mins} ${ampm}`;
+    // Format in PHT (Asia/Manila)
+    const options: Intl.DateTimeFormatOptions = {
+      timeZone: 'Asia/Manila',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true,
+    };
+
+    const formatted = new Intl.DateTimeFormat('en-US', options).format(d);
+    // "September 27, 2026, 6:30 PM" → "September 27, 2026 | 6:30 PM"
+    return formatted.replace(/,([^,]*)$/, ' |$1');
   } catch {
     return isoString;
   }
 }
 
 export function getCurrentDate(): string {
-  const d = new Date();
-  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-  return `${days[d.getDay()]}, ${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+  const options: Intl.DateTimeFormatOptions = {
+    timeZone: 'Asia/Manila',
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  };
+  return new Intl.DateTimeFormat('en-US', options).format(new Date());
 }
 
 export function getCurrentTime(): string {
-  const d = new Date();
-  let h = d.getHours();
-  const ampm = h >= 12 ? 'PM' : 'AM';
-  h = h % 12 || 12;
-  const m = d.getMinutes().toString().padStart(2, '0');
-  return `${h}:${m} ${ampm}`;
+  const options: Intl.DateTimeFormatOptions = {
+    timeZone: 'Asia/Manila',
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+  };
+  return new Intl.DateTimeFormat('en-US', options).format(new Date());
 }
 
 export function getDateLabels(): { label: string; slug: string; isToday: boolean }[] {
   const labels = [];
+  const now = new Date();
+
   for (let i = 0; i <= 7; i++) {
-    const d = new Date(Date.now() - i * 86400000);
-    const slug = d.toISOString().split('T')[0];
+    const d = new Date(now.getTime() - i * 86400000);
+    // Use PHT date consistently
+    const slug = getPHTDateString(d);
     let label: string;
     if (i === 0) label = 'Today';
     else if (i === 1) label = 'Yesterday';
     else {
       const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-      label = `${months[d.getMonth()]} ${d.getDate()}`;
+      // Get month/day in PHT
+      const pht = new Date(d.getTime() + PHT_OFFSET_MS);
+      label = `${months[pht.getUTCMonth()]} ${pht.getUTCDate()}`;
     }
     labels.push({ label, slug, isToday: i === 0 });
   }
   return labels;
 }
+

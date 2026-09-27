@@ -1,26 +1,17 @@
-name: Manual Build
+name: Manual Build Check
 
 on:
   workflow_dispatch:
     inputs:
       use_mock_data:
-        description: 'Build with mock data instead of scraping'
+        description: 'Build with existing committed data (dry run)'
         required: false
         default: 'true'
         type: boolean
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: 'pages'
-  cancel-in-progress: true
-
 jobs:
   build:
-    name: Build & Deploy
+    name: Build Check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,7 +22,7 @@ jobs:
         with:
           node-version: '22'
           cache: 'npm'
-          cache-directory: 'site/package-lock.json'
+          cache-dependency-path: 'site/package-lock.json'
 
       - name: Install dependencies
         working-directory: site
@@ -41,15 +32,8 @@ jobs:
         working-directory: site
         run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          enablement: true
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site/dist
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+      - name: Report
+        run: |
+          echo "Build successful!"
+          echo "Output size: $(du -sh site/dist | cut -f1)"
+          echo "Files: $(find site/dist -type f | wc -l)"
