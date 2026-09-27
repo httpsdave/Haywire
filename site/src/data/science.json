@@ -1,0 +1,84 @@
+{
+  "name": "Science",
+  "slug": "science",
+  "articles": [
+    {
+      "id": "2196f400b5bf",
+      "title": "Scientists discover strange link between low vitamin D and pain",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260914042053.htm",
+      "source": "Science Daily",
+      "sourceType": "rss",
+      "category": "science",
+      "timestamp": "2026-09-14T08:52:54",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": true,
+      "thumbnail": null
+    },
+    {
+      "id": "cd64fa666893",
+      "title": "Cancer is rising in younger adults. Faster biological aging may help explain why",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913082200.htm",
+      "source": "Science Daily",
+      "sourceType": "rss",
+      "category": "science",
+      "timestamp": "2026-09-14T10:47:07",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "c574c7831625",
+      "title": "Chemistry textbooks have been getting this wrong for nearly 100 years",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913082157.htm",
+      "source": "Science Daily",
+      "sourceType": "rss",
+      "category": "science",
+      "timestamp": "2026-09-14T10:13:47",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "dcaf29644075",
+      "title": "Hidden brain wiring may help keep the mind sharp as gray matter shrinks",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913081921.htm",
+      "source": "Science Daily",
+      "sourceType": "rss",
+      "category": "science",
+      "timestamp": "2026-09-14T10:23:40",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "9b09355699ff",
+      "title": "This German submarine sank in 1917. It’s still leaking TNT",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913081919.htm",
+      "source": "Science Daily",
+      "sourceType": "rss",
+      "category": "science",
+      "timestamp": "2026-09-14T09:30:51",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "4dbaf12b0133",
+      "title": "Scientists find a hidden cause of high blood pressure that routine tests can miss",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913081916.htm",
+      "source": "Science Daily",
+      "sourceType": "rss",
+      "category": "science",
+      "timestamp": "2026-09-14T09:57:49",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    }
+  ]
+}

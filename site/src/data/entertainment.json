@@ -1,0 +1,84 @@
+{
+  "name": "Entertainment",
+  "slug": "entertainment",
+  "articles": [
+    {
+      "id": "d0f23fed603f",
+      "title": "In pictures: Stars on red carpet at Emmy Awards in LA",
+      "url": "https://www.bbc.co.uk/news/articles/c98r632g6p76o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "sourceType": "rss",
+      "category": "entertainment",
+      "timestamp": "2026-09-15T00:04:34+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": true,
+      "thumbnail": null
+    },
+    {
+      "id": "d913fd297e3e",
+      "title": "Emmys 2026: The winners and nominations list",
+      "url": "https://www.bbc.co.uk/news/articles/ce8l9pnkn62o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "sourceType": "rss",
+      "category": "entertainment",
+      "timestamp": "2026-09-15T01:25:22+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "d43bbf16de9f",
+      "title": "Oasis confirm Knebworth return plus Manchester and Glasgow live 2027 gigs",
+      "url": "https://www.bbc.co.uk/news/articles/cq89455dlw2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "sourceType": "rss",
+      "category": "entertainment",
+      "timestamp": "2026-09-14T15:04:22+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "cc49e8b6bf4d",
+      "title": "Macklemore dropped from Ed Sheeran tour after \\'Free Palestine\\' speech",
+      "url": "https://www.bbc.co.uk/news/articles/cq0m3pkmgg1ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "sourceType": "rss",
+      "category": "entertainment",
+      "timestamp": "2026-09-14T21:10:49+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "12d9b4819f22",
+      "title": "Israeli minister threatens to revoke filmmakers\\' citizenship over Gaza documentary",
+      "url": "https://www.bbc.co.uk/news/articles/c9vgy8d8256go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "sourceType": "rss",
+      "category": "entertainment",
+      "timestamp": "2026-09-14T18:26:20+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "1bb1ad14bc36",
+      "title": "Legendary costume designer Bob Mackie dies aged 87",
+      "url": "https://www.bbc.co.uk/news/articles/cmpq04wx8l4eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Entertainment",
+      "sourceType": "rss",
+      "category": "entertainment",
+      "timestamp": "2026-09-14T21:29:12+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    }
+  ]
+}

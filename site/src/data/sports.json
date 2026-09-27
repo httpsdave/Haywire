@@ -1,0 +1,84 @@
+{
+  "name": "Sports",
+  "slug": "sports",
+  "articles": [
+    {
+      "id": "ea79d20ea5d7",
+      "title": "\\'Unplayable\\' & \\'almost perfect\\' - Calvert-Lewin set for England recall?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cv1j49220j93o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "sourceType": "rss",
+      "category": "sports",
+      "timestamp": "2026-09-14T22:56:28+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": true,
+      "thumbnail": null
+    },
+    {
+      "id": "64c4832b71a6",
+      "title": "Leeds inflict heavy defeat on Newcastle to climb to third",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c8d3el7mvypo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "sourceType": "rss",
+      "category": "sports",
+      "timestamp": "2026-09-14T21:31:59+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "c184b0d304f0",
+      "title": "\\'This is what women in sport look like\\' - Hunt leads response to Sweeney advert",
+      "url": "https://www.bbc.co.uk/sport/athletics/articles/c9dw905jw5no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "sourceType": "rss",
+      "category": "sports",
+      "timestamp": "2026-09-14T13:17:47+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "c0b1e73c7f02",
+      "title": "Graham & Ure make Pocognoli\\'s first Scotland squad",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm9dw94zzyx1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "sourceType": "rss",
+      "category": "sports",
+      "timestamp": "2026-09-14T21:00:42+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "1db2d7917806",
+      "title": "Who has made Troy\\'s Premier League team of the week?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxr50zln2gqro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "sourceType": "rss",
+      "category": "sports",
+      "timestamp": "2026-09-14T22:18:48+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "077af619b78b",
+      "title": "Calvert-Lewin stars but Botman struggles - player ratings for Leeds v Newcastle",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6790xr3wvr7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Sport",
+      "sourceType": "rss",
+      "category": "sports",
+      "timestamp": "2026-09-14T20:54:23+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    }
+  ]
+}

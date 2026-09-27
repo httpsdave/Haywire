@@ -1,0 +1,84 @@
+{
+  "name": "Politics",
+  "slug": "politics",
+  "articles": [
+    {
+      "id": "2f35c06c975e",
+      "title": "Farage says £72m donations are compliant \\'with the law today\\'",
+      "url": "https://www.bbc.co.uk/news/articles/c623xee9dkdyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "sourceType": "rss",
+      "category": "politics",
+      "timestamp": "2026-09-14T17:50:29+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": true,
+      "thumbnail": null
+    },
+    {
+      "id": "4467aae717de",
+      "title": "Burnham cancels engagements after death of father",
+      "url": "https://www.bbc.co.uk/news/articles/c68xkddgnd47o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "sourceType": "rss",
+      "category": "politics",
+      "timestamp": "2026-09-14T18:53:38+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "0f6fde04e858",
+      "title": "MPs and Lords call for new law to address AI threat to human rights",
+      "url": "https://www.bbc.co.uk/news/articles/cwyzvgj70y4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "sourceType": "rss",
+      "category": "politics",
+      "timestamp": "2026-09-14T08:07:08+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "5d3c6d344cf2",
+      "title": "Former top civil servant received pay-off of nearly £860,000",
+      "url": "https://www.bbc.co.uk/news/articles/cq7703kjvzlpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "sourceType": "rss",
+      "category": "politics",
+      "timestamp": "2026-09-14T16:35:40+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "203b4a3efa66",
+      "title": "Farm tax a mistake, Lord Blunkett says in call for Burnham \\'rural reset\\'",
+      "url": "https://www.bbc.co.uk/news/articles/ckjrxjqvgjj1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "sourceType": "rss",
+      "category": "politics",
+      "timestamp": "2026-09-14T17:46:26+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "116ee9c162d4",
+      "title": "\\'Culture shift\\' needed in how UK does business, PM urges",
+      "url": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "sourceType": "rss",
+      "category": "politics",
+      "timestamp": "2026-09-14T14:22:55+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    }
+  ]
+}

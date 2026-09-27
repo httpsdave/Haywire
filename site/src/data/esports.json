@@ -1,0 +1,84 @@
+{
+  "name": "E-Sports",
+  "slug": "esports",
+  "articles": [
+    {
+      "id": "f978dfde19e7",
+      "title": "Everything announced at BlizzCon 2026: Diablo V, StarCraft, WoW Forever, and more",
+      "url": "https://dotesports.com/overwatch/news/blizzcon-2026-everything-announced",
+      "source": "Dot Esports",
+      "sourceType": "rss",
+      "category": "esports",
+      "timestamp": "2026-09-15T02:20:40+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": true,
+      "thumbnail": null
+    },
+    {
+      "id": "b0b07628b7ce",
+      "title": "Marathon delays next update to December, featuring permanent PvE mode",
+      "url": "https://dotesports.com/marathon/news/marathon-permanent-pve-delay",
+      "source": "Dot Esports",
+      "sourceType": "rss",
+      "category": "esports",
+      "timestamp": "2026-09-14T19:38:05+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "71644165ee17",
+      "title": "How to unlock TR51 Para in Black Ops 7 and Warzone",
+      "url": "https://dotesports.com/call-of-duty/guides/unlock-tr51-para-bo7-warzone",
+      "source": "Dot Esports",
+      "sourceType": "rss",
+      "category": "esports",
+      "timestamp": "2026-09-14T16:44:00+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "2ac147eeb579",
+      "title": "All Sombra and Roadhog rework abilities coming to Overwatch",
+      "url": "https://dotesports.com/overwatch/guides/overwatch-sombra-roadhog-rework",
+      "source": "Dot Esports",
+      "sourceType": "rss",
+      "category": "esports",
+      "timestamp": "2026-09-14T14:26:16+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "c5d78735765c",
+      "title": "VALORANT overhauls progression with Agent Mastery, new Competitive reward coming in 2027",
+      "url": "https://dotesports.com/valorant/news/valorant-agent-mastery-competitive-rewards",
+      "source": "Dot Esports",
+      "sourceType": "rss",
+      "category": "esports",
+      "timestamp": "2026-09-14T13:10:00+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "5a3af94d20f3",
+      "title": "Gauntlet: Glitched lets you build your own VALORANT Agent in a multi-team roguelike",
+      "url": "https://dotesports.com/valorant/news/valorant-gauntlet-glitched-reveal",
+      "source": "Dot Esports",
+      "sourceType": "rss",
+      "category": "esports",
+      "timestamp": "2026-09-14T13:05:00+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    }
+  ]
+}

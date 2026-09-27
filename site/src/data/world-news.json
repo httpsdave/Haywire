@@ -1,0 +1,84 @@
+{
+  "name": "World News",
+  "slug": "world-news",
+  "articles": [
+    {
+      "id": "1ab8a6c3fae9",
+      "title": "China criticises idea it is in \\'malicious competition\\' over AI",
+      "url": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceType": "rss",
+      "category": "world_news",
+      "timestamp": "2026-09-14T11:31:39+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": true,
+      "thumbnail": null
+    },
+    {
+      "id": "eafa40c5cc0f",
+      "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+      "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceType": "rss",
+      "category": "world_news",
+      "timestamp": "2026-09-14T12:18:13+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "45a949a0829b",
+      "title": "Swedish left-wing bloc narrowly ahead with election too close to call",
+      "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceType": "rss",
+      "category": "world_news",
+      "timestamp": "2026-09-14T08:36:09+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "7e06b7aebed9",
+      "title": "Wild dogs record 2,500-mile trek across Zambia in search of a mate",
+      "url": "https://www.bbc.co.uk/news/articles/cy459y5y9yxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceType": "rss",
+      "category": "world_news",
+      "timestamp": "2026-09-14T14:08:12+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "9ad6db8a21de",
+      "title": "Thousands demand end to violence in Mexican cartel hotspot",
+      "url": "https://www.bbc.co.uk/news/articles/cde06rxw5g6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceType": "rss",
+      "category": "world_news",
+      "timestamp": "2026-09-14T11:28:36+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "1bb1ad14bc36",
+      "title": "Legendary costume designer Bob Mackie dies aged 87",
+      "url": "https://www.bbc.co.uk/news/articles/cmpq04wx8l4eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceType": "rss",
+      "category": "world_news",
+      "timestamp": "2026-09-14T21:29:12+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    }
+  ]
+}

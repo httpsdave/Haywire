@@ -1,4 +1,4 @@
-name: Scrape & Build Haywire
+name: Scrape & Update Data
 
 on:
   schedule:
@@ -15,21 +15,21 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: 'pages'
+  group: 'scrape'
   cancel-in-progress: true
 
 jobs:
-  scrape:
-    name: Scrape News Sources
+  scrape-and-commit:
+    name: Scrape News & Commit Data
     runs-on: ubuntu-latest
     if: ${{ github.event.inputs.skip_scrape != 'true' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -49,58 +49,18 @@ jobs:
         working-directory: scrapers
         run: python main.py --verbose
 
-      - name: Upload data artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: news-data
-          path: data/
-          retention-days: 7
-
-  build:
-    name: Build & Deploy Site
-    runs-on: ubuntu-latest
-    needs: scrape
-    if: always() && (needs.scrape.result == 'success' || needs.scrape.result == 'skipped')
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Download scraped data
-        if: needs.scrape.result == 'success'
-        uses: actions/download-artifact@v4
-        with:
-          name: news-data
-          path: data/
-
       - name: Export data to site
-        if: needs.scrape.result == 'success'
         run: python3 scripts/export_site_data.py
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: 'npm'
-          cache-dependency-path: 'site/package-lock.json'
-
-      - name: Install dependencies
-        working-directory: site
-        run: npm ci
-
-      - name: Build Astro site
-        working-directory: site
-        run: npm run build
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          enablement: true
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site/dist
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/src/data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore(data): update news data [$(date -u +%Y-%m-%d %H:%M UTC)]"
+            git push
+            echo "Data committed and pushed — Vercel will auto-deploy"
+          fi

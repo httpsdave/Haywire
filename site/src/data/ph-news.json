@@ -1,0 +1,84 @@
+{
+  "name": "Philippine News",
+  "slug": "ph-news",
+  "articles": [
+    {
+      "id": "fd9001eeef8d",
+      "title": "Rare, endemic plant rediscovered in Masungi after 130 years",
+      "url": "https://newsinfo.inquirer.net/2305322/rare-endemic-plant-rediscovered-in-masungi-after-130-years",
+      "source": "Inquirer.net",
+      "sourceType": "rss",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T10:36:56+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": true,
+      "thumbnail": null
+    },
+    {
+      "id": "a850f758d947",
+      "title": "Fewer families victimized by common crimes, more by cybercrime – SWS",
+      "url": "https://newsinfo.inquirer.net/2305308/fewer-families-victimized-by-common-crimes-more-by-cybercrime-sws",
+      "source": "Inquirer.net",
+      "sourceType": "rss",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T10:32:38+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "06ecc7d8e1df",
+      "title": "Southern Leyte seeks Maasin-Clark flight as airport rehab advances",
+      "url": "https://newsinfo.inquirer.net/2305304/southern-leyte-seeks-maasin-clark-flight-as-airport-rehab-advances",
+      "source": "Inquirer.net",
+      "sourceType": "rss",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T10:09:28+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "ebd65a68b81a",
+      "title": "Cendaña files complaint at NBI vs vloggers ‘mocking’ PWDs",
+      "url": "https://newsinfo.inquirer.net/2305306/cendana-files-complaint-at-nbi-vs-vloggers-mocking-pwds",
+      "source": "Inquirer.net",
+      "sourceType": "rss",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T09:51:21+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "b42c205480ac",
+      "title": "OIL PRICE WATCH as of Sept. 15, 2026",
+      "url": "https://newsinfo.inquirer.net/2305258/oil-price-watch-as-of-sept-15-2026",
+      "source": "Inquirer.net",
+      "sourceType": "rss",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T08:55:00+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    },
+    {
+      "id": "104c97d00dc0",
+      "title": "WATCH: Sara Duterte impeachment trial | Sept. 15, 2026",
+      "url": "https://newsinfo.inquirer.net/2305251/watch-sara-duterte-impeachment-trial-sept-15-2026",
+      "source": "Inquirer.net",
+      "sourceType": "rss",
+      "category": "ph_news",
+      "timestamp": "2026-09-15T08:00:00+00:00",
+      "score": 0,
+      "commentCount": 0,
+      "isFeatured": false,
+      "thumbnail": null
+    }
+  ]
+}
