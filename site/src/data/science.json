@@ -3,6 +3,32 @@
   "slug": "science",
   "articles": [
     {
+      "id": "592d87274807",
+      "title": "China now leads the world in trials for next-gen CAR-T therapies",
+      "url": "https://www.nature.com/articles/d41586-026-03004-3",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-09-28T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "fdcfa0df62ba",
+      "title": "Transplanted hearts adjust their biological age to that of their host",
+      "url": "https://www.nature.com/articles/d41586-026-03043-w",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-09-28T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "4ceea87067e7",
       "title": "Glucosamine, a popular joint supplement, linked to faster Alzheimer’s progression",
       "url": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
@@ -13,7 +39,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "c038df1cfc6a",
@@ -48,32 +74,6 @@
       "source": "Science Daily",
       "category": "science",
       "timestamp": "2026-09-27T08:10:17+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "7f2e5f502fb8",
-      "title": "1.7-billion-year-old fossils reveal a crucial clue to the rise of complex life",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925005447.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-09-27T07:55:50+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "5c74abbf3864",
-      "title": "Why rheumatoid arthritis pain may persist even when inflammation is under control",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260925093208.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-09-27T06:49:13+00:00",
       "score": 0,
       "thumbnail": null,
       "sourceType": "rss",
