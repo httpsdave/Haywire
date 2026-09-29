@@ -3,6 +3,19 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "56585c7a2211",
+      "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+      "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-09-29T05:13:43+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
       "id": "d0aae68483eb",
       "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
       "url": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
@@ -13,7 +26,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "390545098a63",
@@ -245,19 +258,6 @@
       "timestamp": "2026-09-28T14:45:00-04:00",
       "score": 0,
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "f76f63fcf7c3",
-      "title": "Trump finalizes rule to make cars less fuel efficient",
-      "url": "https://www.theverge.com/news/1001610/trump-weakens-fuel-efficiency-standards",
-      "source": "The Verge",
-      "category": "technology",
-      "timestamp": "2026-09-28T14:39:50-04:00",
-      "score": 0,
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2250207971.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
