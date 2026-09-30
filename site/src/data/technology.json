@@ -3,6 +3,19 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "921fb44b5251",
+      "title": "Apple Pay finally launches in India after years on the sidelines",
+      "url": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-09-30T04:08:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
       "id": "8df0c46b3cc2",
       "title": "Sam Altman says OpenAI won’t go public until its models are safe",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
@@ -13,7 +26,7 @@
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2D_717b98.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "734f881f6798",
@@ -217,19 +230,6 @@
       "source": "TechCrunch",
       "category": "technology",
       "timestamp": "2026-09-29T18:48:03+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "3a78433ae666",
-      "title": "Apple Pay set to launch in India with Axis Bank today, sources say",
-      "url": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-09-29T18:45:00+00:00",
       "score": 0,
       "thumbnail": null,
       "sourceType": "rss",
