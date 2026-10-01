@@ -3,6 +3,19 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "02bf038a4291",
+      "title": "Vivo’s X Fold 6 accidentally feels like a throwback",
+      "url": "https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-09-30T22:00:00-04:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/vivo-x-fold-6-09.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
       "id": "c2c89786ea9a",
       "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
       "url": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
@@ -13,7 +26,7 @@
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-30-at-5.16.09-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "6cffad7331f4",
@@ -245,19 +258,6 @@
       "timestamp": "2026-09-30T19:22:19+00:00",
       "score": 0,
       "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2236794248-1024x648.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "0a679b75bd05",
-      "title": "DoorDash’s drone strategy started on the ground",
-      "url": "https://techcrunch.com/2026/09/30/doordashs-drone-strategy-started-on-the-ground/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-09-30T19:22:13+00:00",
-      "score": 0,
-      "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
