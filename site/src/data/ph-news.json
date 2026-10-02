@@ -3,6 +3,19 @@
   "slug": "ph-news",
   "articles": [
     {
+      "id": "4612d143c538",
+      "title": "Dumaguete drug bust yields P7.8M worth of  ‘shabu’",
+      "url": "https://newsinfo.inquirer.net/2315938/dumaguete-drug-bust-yields-p7-8m-worth-of-shabu",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-02T22:30:30+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2022/02/seized-drugs.png",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
       "id": "867e87e6ad3d",
       "title": "P510K worth of suspected shabu seized in South Cotabato town",
       "url": "https://newsinfo.inquirer.net/2315931/p510k-worth-of-suspected-shabu-seized-in-south-cotabato-town",
@@ -13,7 +26,7 @@
       "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/polomolok-buy-bust-2oct2026-scaled.jpg",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "77027c73b2c4",
@@ -42,6 +55,19 @@
       "isFeatured": false
     },
     {
+      "id": "0d1a70a29a01",
+      "title": "Bojie Dy says education still House’s priority, affirms commitment",
+      "url": "https://newsinfo.inquirer.net/2315963/bojie-dy-says-education-still-houses-priority-affirms-commitment",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-02T22:16:41+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/07/1266751.jpeg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "8afa9e487419",
       "title": "Puerto Princesa braces for more grass fires amid super El Niño",
       "url": "https://newsinfo.inquirer.net/2315914/puerto-princesa-braces-for-more-grass-fires-amid-super-el-nino",
@@ -50,6 +76,19 @@
       "timestamp": "2026-10-02T22:06:42+00:00",
       "score": 0,
       "thumbnail": "https://newsinfo.inquirer.net/files/2025/03/Puerto-Princesa-City-PALAWAN-map-file.png",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "c154ae3099ec",
+      "title": "Suansing maintains: No pork in proposed 2027 budget",
+      "url": "https://newsinfo.inquirer.net/2315946/suansing-maintains-no-pork-in-proposed-2027-budget",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-02T22:02:52+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2025/09/Mikaela-Suansing-24September2025.jpg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
@@ -146,6 +185,19 @@
       "isFeatured": false
     },
     {
+      "id": "837889a31618",
+      "title": "At Cornell, rape allegations spark outrage, soul-searching over campus culture",
+      "url": "https://www.gmanetwork.com/news/topstories/world/1004600/at-cornell-rape-allegations-spark-outrage-soul-searching-over-campus-culture/story/",
+      "source": "GMA News",
+      "category": "ph_news",
+      "timestamp": "2026-10-03T04:09:58+08:00",
+      "score": 0,
+      "thumbnail": "https://images.gmanews.tv/webpics/2026/10/cornell_university_2026_10_03_04_03_00.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "2b42a52d75c7",
       "title": "DepEd promotes over 3,000 teachers, principals in Cagayan Valley",
       "url": "https://newsinfo.inquirer.net/2315882/deped-promotes-over-3000-teachers-principals-in-cagayan-valley",
@@ -172,6 +224,19 @@
       "isFeatured": false
     },
     {
+      "id": "fb13679ce1b9",
+      "title": "Super El Niño sa 2027: Init posibleng pumalo sa 45 degrees Celsius o higit pa",
+      "url": "https://www.gmanetwork.com/news/balitambayan/balita/1004598/super-el-ni-o-sa-2027-init-posibleng-pumalo-sa-45degc-o-higit-pa/story/",
+      "source": "GMA News",
+      "category": "ph_news",
+      "timestamp": "2026-10-03T02:54:59+08:00",
+      "score": 0,
+      "thumbnail": "https://images.gmanews.tv/webpics/2026/04/AFP__20240402__34N68BY__v2__HighRes__PhilippinesWeather_2024_04_17_16_44_35_2026_04_07_21_51_48.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "2b785706be0a",
       "title": "Government workers continue to push for P5,000 PERA",
       "url": "https://newsinfo.inquirer.net/2315862/government-workers-continue-to-push-for-p5000-pera",
@@ -193,71 +258,6 @@
       "timestamp": "2026-10-02T18:47:16+00:00",
       "score": 0,
       "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/BrianPoe-02Oct2026.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "6b7094326caa",
-      "title": "Cayetano on Lacson’s Taguig reports: ‘I’m always the one being pointed to’",
-      "url": "https://newsinfo.inquirer.net/2315858/cayetano-on-lacsons-taguig-reports-im-always-the-one-being-pointed-to",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-02T18:42:07+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Lacson-Taguig-illegalreclamation-2October2026-e1790943991321.png",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "41d9fa81a1e4",
-      "title": "Dy talks of House efforts to boost bamboo industry at ADB exhibit",
-      "url": "https://newsinfo.inquirer.net/2315841/dy-talks-of-house-efforts-to-boost-bamboo-industry-at-adb-exhibit",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-02T18:29:10+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/FaustinoDyIII-BambooBike-02Oct2026.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "ed9023598cfd",
-      "title": "Habitat loss remains top threat to Mindoro’s Tamaraws",
-      "url": "https://newsinfo.inquirer.net/2315834/habitat-loss-remains-top-threat-to-mindoros-tamaraws",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-02T18:28:25+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/1000028779-1.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "05364599994b",
-      "title": "Romblon town suspends classes, school work on Oct. 5 for Teachers’ Day",
-      "url": "https://newsinfo.inquirer.net/2315801/romblon-town-suspends-classes-school-work-on-oct-5-for-teachers-day",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-02T18:20:47+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2022/09/Romblon-map-filephoto-091222.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "9ff3903b148d",
-      "title": "Sandiganbayan affirms denial of Pasay judge’s bid to junk bribery case",
-      "url": "https://newsinfo.inquirer.net/2315813/fwd-sandiganbayan-affirms-denial-of-pasay-judges-bid-to-junk-bribery-case",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-02T18:20:00+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/06/Commission-on-Audit-COA-officer-on-Monday-submitted-a-new-set-of-documents-to-the-Sandiganbayan-1st-Division-in-the-graft-trial-related-to-the-Pharmally-case.png",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
