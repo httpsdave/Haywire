@@ -3,6 +3,32 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "6374a065e891",
+      "title": "3D movies are finally worth watching",
+      "url": "https://www.theverge.com/tech/1004131/3d-movies-are-finally-worth-watching-xreal-meta-glasses-vision-pro",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-10-03T08:00:00-04:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268631_Xreal_A01_Plus_CFaulkner_0001.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "f58f02bfd973",
+      "title": "The dawn of the age of the exoskeleton",
+      "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+      "source": "Ars Technica",
+      "category": "technology",
+      "timestamp": "2026-10-03T11:15:33+00:00",
+      "score": 0,
+      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2261904940-1152x648.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "bba9a43da449",
       "title": "Meta wants your next gadget to be Muse-infused",
       "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
@@ -13,7 +39,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "57cc47f0fc31",
@@ -232,32 +258,6 @@
       "timestamp": "2026-10-02T14:00:00-04:00",
       "score": 0,
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04281_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "c1b16fa03109",
-      "title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
-      "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-10-02T17:48:16+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "e9775bfe4e33",
-      "title": "Breaking up (with Elon Musk) is hard to do",
-      "url": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
-      "source": "The Verge",
-      "category": "technology",
-      "timestamp": "2026-10-02T13:37:36-04:00",
-      "score": 0,
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STPK222_SHIVON_ZILIS2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
