@@ -3,6 +3,58 @@
   "slug": "science",
   "articles": [
     {
+      "id": "182be42abb29",
+      "title": "This protective enzyme could help stop fatty liver disease from getting worse",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261002080020.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-03T09:46:11+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "5996b4cc8853",
+      "title": "ESA’s Juice just used Earth as a slingshot to Jupiter",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261001214102.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-03T09:34:11+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "8ad7bdaeba14",
+      "title": "Chang’e-6 lunar soil contains a surprising magnetic time capsule",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261001214015.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-03T09:12:14+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "949fb42dc126",
+      "title": "Powerful simulations reveal how the first stars changed the universe",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261001214012.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-03T08:50:57+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "e2ca3a565874",
       "title": "Leucine does more than build muscle. It powers up your cells",
       "url": "https://www.sciencedaily.com/releases/2026/10/261001095319.htm",
@@ -13,7 +65,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "0c01640e1f6b",
