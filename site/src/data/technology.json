@@ -29,6 +29,19 @@
       "isFeatured": false
     },
     {
+      "id": "9729ecd2858a",
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "source": "Ars Technica",
+      "category": "technology",
+      "timestamp": "2026-10-02T23:03:16+00:00",
+      "score": 0,
+      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "2afb9727b90d",
       "title": "Someone got Doom in an SQL database",
       "url": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
@@ -245,19 +258,6 @@
       "timestamp": "2026-10-02T13:37:36-04:00",
       "score": 0,
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STPK222_SHIVON_ZILIS2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "92fab25daca0",
-      "title": "US military ends long-running program to spot nuclear missile launches",
-      "url": "https://arstechnica.com/space/2026/10/us-military-ends-long-running-program-to-spot-nuclear-missile-launches/",
-      "source": "Ars Technica",
-      "category": "technology",
-      "timestamp": "2026-10-02T17:32:14+00:00",
-      "score": 0,
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/071110-D-1584B-011-1152x648.jpeg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
