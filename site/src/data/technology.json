@@ -3,6 +3,58 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "108d4374589d",
+      "title": "The new Fitbit Edge leaks",
+      "url": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-10-04T17:02:09-04:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24438538/Fitbit_STK151_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "3597da5f9ee6",
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-04T20:31:07+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "5bf0eacbc260",
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-04T20:08:34+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "c4339f24cdeb",
+      "title": "Prick’s theatrical industrial punk is perfect for spooky season",
+      "url": "https://www.theverge.com/entertainment/1004595/prick-industrial-glam-punk-album-review",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-10-04T16:00:00-04:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Prick.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "2dd80a21f528",
       "title": "The best early October Prime Day deals happening now",
       "url": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
@@ -13,11 +65,11 @@
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268775_October_Prime_Day_art_CVirginia.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
-      "id": "2b75efc51612",
-      "title": "NJ’s lieutenant governor told PBS, AI says he didn’t commit sexual harassment",
+      "id": "a64476a2bd41",
+      "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
       "source": "The Verge",
       "category": "technology",
@@ -146,32 +198,6 @@
       "isFeatured": false
     },
     {
-      "id": "67eefb769b62",
-      "title": "The rise, fall, and rise of portable MP3 players",
-      "url": "https://www.theverge.com/column/1003566/history-apple-ipod-mp3-music-player",
-      "source": "The Verge",
-      "category": "technology",
-      "timestamp": "2026-10-04T08:00:00-04:00",
-      "score": 0,
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10187187/jbareham_180208_2298_0023_04.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "18152daa5dc0",
-      "title": "Amazon’s colorful and sturdy new Kindles",
-      "url": "https://www.theverge.com/tech/1004199/amazon-kindle-openai-dots-witcher-3-remastered-bose-wired-headphones",
-      "source": "The Verge",
-      "category": "technology",
-      "timestamp": "2026-10-04T08:00:00-04:00",
-      "score": 0,
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/installer.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
       "id": "7a840b923c34",
       "title": "All hail electrification. But let’s talk about the hard part.",
       "url": "https://arstechnica.com/science/2026/10/all-hail-electrification-but-lets-talk-about-the-hard-part/",
@@ -180,45 +206,6 @@
       "timestamp": "2026-10-04T11:05:53+00:00",
       "score": 0,
       "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2024/07/GettyImages-1463437040-1152x648.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "39855a0bffa7",
-      "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
-      "url": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
-      "source": "Ars Technica",
-      "category": "technology",
-      "timestamp": "2026-10-03T19:45:17+00:00",
-      "score": 0,
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/news-100326a-lg-1152x648.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "742592dfe92a",
-      "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
-      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-10-03T19:33:15+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "64c21f33c897",
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-10-03T18:43:57+00:00",
-      "score": 0,
-      "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
