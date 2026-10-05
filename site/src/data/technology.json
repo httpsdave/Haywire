@@ -3,6 +3,19 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "9e1bf396ded7",
+      "title": "New forensic evidence supports Egyptian \"retainer sacrifice\"",
+      "url": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
+      "source": "Ars Technica",
+      "category": "technology",
+      "timestamp": "2026-10-05T04:00:52+00:00",
+      "score": 0,
+      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/egypt1-1152x648-1791134921.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
       "id": "108d4374589d",
       "title": "The new Fitbit Edge leaks",
       "url": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
@@ -13,7 +26,7 @@
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24438538/Fitbit_STK151_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "3597da5f9ee6",
