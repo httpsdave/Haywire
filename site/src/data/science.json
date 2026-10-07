@@ -3,6 +3,58 @@
   "slug": "science",
   "articles": [
     {
+      "id": "a410129c4bc3",
+      "title": "A new way to fight gum disease without wiping out good bacteria",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261005012230.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-06T23:55:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "95638c732e3c",
+      "title": "Humans may not be as hardwired for violence as we thought",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261005071529.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-06T23:22:55+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "ae91d2bac863",
+      "title": "Animals may have evolved 200 million years earlier than we thought",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261003234023.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-06T22:29:56+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "4632e42d647f",
+      "title": "What happens in the brain when cannabis makes you anxious?",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261003234021.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-06T21:26:07+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "2d0def25d59a",
       "title": "Colorectal cancer is rising in young people and often found too late",
       "url": "https://www.sciencedaily.com/releases/2026/10/261003234019.htm",
@@ -13,7 +65,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "3beebdf8d52d",
@@ -48,45 +100,6 @@
       "source": "Science Daily",
       "category": "science",
       "timestamp": "2026-10-06T08:23:37+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "dc46bc8c7ff3",
-      "title": "Physicists just saw quarks make waves in the Big Bang’s primordial soup",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261004002556.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-06T08:04:50+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "8f33f7ab4d22",
-      "title": "One simple addition to postpartum care made a major difference",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261003234017.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-06T07:25:14+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "1c86b2f6996d",
-      "title": "Scientists finally see how nature moves energy so efficiently",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261004001841.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-06T03:49:51+00:00",
       "score": 0,
       "thumbnail": null,
       "sourceType": "rss",
