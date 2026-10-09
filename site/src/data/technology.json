@@ -3,6 +3,19 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "7d81a2a60dc1",
+      "title": "Microsoft 365 Family subscribers will finally be able to share AI benefits",
+      "url": "https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-10-09T03:14:32-04:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/m365premium.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
       "id": "777b556c9e13",
       "title": "President Trump awards Big Tech donors with nation’s highest science prizes",
       "url": "https://techcrunch.com/2026/10/08/president-trump-awards-big-tech-donors-with-nations-highest-science-prizes/",
@@ -13,7 +26,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "017472e17855",
@@ -245,19 +258,6 @@
       "timestamp": "2026-10-08T19:26:32+00:00",
       "score": 0,
       "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2294068904-1152x648.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "0bfc38f5d0fd",
-      "title": "Paramount is making a Cyberpunk 2077 film",
-      "url": "https://www.theverge.com/games/1008327/paramount-pictures-cyberpunk-2077-film-movie",
-      "source": "The Verge",
-      "category": "technology",
-      "timestamp": "2026-10-08T15:14:03-04:00",
-      "score": 0,
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/cyberpunk2077screenshot.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
