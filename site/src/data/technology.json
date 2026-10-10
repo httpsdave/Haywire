@@ -3,6 +3,58 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "f3e8cdd57615",
+      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+      "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-10-10T14:52:07-04:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/distrokid_logo_og_image.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "daca6b426c97",
+      "title": "Petra Power looks to modernize energy for data centers and defense vehicles",
+      "url": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-10T17:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "432ea956d8a7",
+      "title": "Ledger wallet tampering suspected after reports of crypto thefts",
+      "url": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-10-10T12:36:44-04:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK428_CRYPTO_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "31e720f33cd8",
+      "title": "Cloudflare acquires Deno to improve its Workers programming model",
+      "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-10T16:25:42+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "9be5f4f1babc",
       "title": "K-pop star Sunmi loves Notion and ear cleaning videos",
       "url": "https://www.theverge.com/entertainment/1008654/k-pop-sunmi-wonder-girls-interview",
@@ -13,7 +65,7 @@
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Photo-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "0acc02f165b9",
@@ -146,19 +198,6 @@
       "isFeatured": false
     },
     {
-      "id": "c2bf8d433874",
-      "title": "My brief romance with an AI bird feeder",
-      "url": "https://www.theverge.com/gadgets/1007674/smart-bird-feeders-attact-pests-too",
-      "source": "The Verge",
-      "category": "technology",
-      "timestamp": "2026-10-10T03:00:00-04:00",
-      "score": 0,
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_5464.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
       "id": "1404b228dc48",
       "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
       "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
@@ -219,45 +258,6 @@
       "timestamp": "2026-10-09T22:04:07+00:00",
       "score": 0,
       "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "7a615b7a7059",
-      "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
-      "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
-      "source": "Ars Technica",
-      "category": "technology",
-      "timestamp": "2026-10-09T21:51:12+00:00",
-      "score": 0,
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Cray-1_Vertical_Chassis-1-810x648.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "69854866d04f",
-      "title": "Decade-old RAM is making a comeback",
-      "url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
-      "source": "The Verge",
-      "category": "technology",
-      "timestamp": "2026-10-09T17:50:00-04:00",
-      "score": 0,
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STKS523_RAM_SHORTAGE_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "746a84835008",
-      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-10-09T21:41:29+00:00",
-      "score": 0,
-      "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false

@@ -3,6 +3,32 @@
   "slug": "ph-news",
   "articles": [
     {
+      "id": "da502d7765c1",
+      "title": "LIST: New minimum wage rates in Calabarzon",
+      "url": "https://newsinfo.inquirer.net/2321316/list-new-minimum-wage-rates-in-calabarzon",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-10T23:54:09+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2022/09/Calabarzon-MAP-09082022.jpeg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "67725b6df34c",
+      "title": "Bohol governor hopeful of tourism industry rebound",
+      "url": "https://newsinfo.inquirer.net/2321309/bohol-governor-hopeful-of-tourism-industry-rebound",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-10T23:53:03+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/IMG_9090.jpeg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "623049774308",
       "title": "Mayor orders probe into illegal Pogo operations in Zamboanga Sibugay",
       "url": "https://newsinfo.inquirer.net/2321274/mayor-orders-probe-into-illegal-pogo-operations-in-zamboanga-sibugay",
@@ -13,7 +39,7 @@
       "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/15233-e1791645425465.jpg",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "9b4e328d2de5",
@@ -185,6 +211,19 @@
       "isFeatured": false
     },
     {
+      "id": "b3ca33c934fa",
+      "title": "NTF-WPS condemns Chinese militia vessel's intrusion near Kota Island",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/1005486/ntf-wps-condemns-chinese-militia-vessel-s-intrusion-near-kota-island/story/",
+      "source": "GMA News",
+      "category": "ph_news",
+      "timestamp": "2026-10-11T03:27:23+08:00",
+      "score": 0,
+      "thumbnail": "https://images.gmanews.tv/webpics/2026/10/pcg_2026_10_09_23_51_43_2026_10_11_03_25_05.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "8426de1a6975",
       "title": "Lanao del Norte hospital gets first CT scan machine",
       "url": "https://newsinfo.inquirer.net/2321141/lanao-del-norte-hospital-gets-first-ct-scan-machine",
@@ -219,45 +258,6 @@
       "timestamp": "2026-10-10T18:45:52+00:00",
       "score": 0,
       "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/one-education-10oct2026.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "47bb5f0b5571",
-      "title": "Iloilo water utility braces for ‘super’ El Niño",
-      "url": "https://newsinfo.inquirer.net/2321135/iloilo-water-utility-braces-for-super-el-nino",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-10T17:53:38+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2022/09/Iloilo-map-filephoto-091322.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "e82bc1159a9a",
-      "title": "OCD: Ashfall, sulfuric odor after Kanlaon’s ‘explosive’ eruption",
-      "url": "https://newsinfo.inquirer.net/2321133/ashfall-sulfur-odor-observed-after-kanlaon-volcanos-explosive-eruption",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-10T17:12:11+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Kanlaon-Volcano-10october2026.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "0f1f19e249d7",
-      "title": "Solon: Civilian informants key in anti-drug operations",
-      "url": "https://newsinfo.inquirer.net/2321130/civilian-informants-key-in-anti-drug-operations",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-10T16:40:55+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2025/08/524711538_1208323018001745_5085063244070048619_n.jpg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
