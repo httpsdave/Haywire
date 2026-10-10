@@ -3,6 +3,32 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "c2bf8d433874",
+      "title": "My brief romance with an AI bird feeder",
+      "url": "https://www.theverge.com/gadgets/1007674/smart-bird-feeders-attact-pests-too",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-10-10T03:00:00-04:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_5464.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "1404b228dc48",
+      "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
+      "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-10T03:10:06+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "d29a4b1b869e",
       "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
       "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
@@ -13,7 +39,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "4f2b40e05095",
@@ -232,32 +258,6 @@
       "timestamp": "2026-10-09T18:54:52+00:00",
       "score": 0,
       "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298480400-1024x648.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "26f25c66178d",
-      "title": "AI disqualification yields new Nikon Small World in Motion winner",
-      "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
-      "source": "Ars Technica",
-      "category": "technology",
-      "timestamp": "2026-10-09T18:44:06+00:00",
-      "score": 0,
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/nikon1-1152x648.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "3c3a96914bab",
-      "title": "Your artwork could be featured in the next Debian release",
-      "url": "https://arstechnica.com/gadgets/2026/10/your-artwork-could-be-featured-in-the-next-debian-release/",
-      "source": "Ars Technica",
-      "category": "technology",
-      "timestamp": "2026-10-09T18:33:26+00:00",
-      "score": 0,
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ceratopsian_wallpaper-1152x648.png",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
