@@ -3,6 +3,45 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "b05aa87cd129",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-10-10T18:10:17-04:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK178_Satya_Nadella_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "99ac3ef62636",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-10T21:47:51+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "f2adf1d375bc",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-10T19:50:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "f3e8cdd57615",
       "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
       "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
@@ -13,7 +52,7 @@
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/distrokid_logo_og_image.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "daca6b426c97",
@@ -185,19 +224,6 @@
       "isFeatured": false
     },
     {
-      "id": "5751abdb93b4",
-      "title": "The director of Fjord takes the &#8216;risky position&#8217; of moderator",
-      "url": "https://www.theverge.com/entertainment/1008748/fjord-cristian-mungiu-interview",
-      "source": "The Verge",
-      "category": "technology",
-      "timestamp": "2026-10-10T07:00:00-04:00",
-      "score": 0,
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/6dcdc551-c3ac-483a-88b4-2ec76d2e9874.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
       "id": "1404b228dc48",
       "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
       "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
@@ -206,58 +232,6 @@
       "timestamp": "2026-10-10T03:10:06+00:00",
       "score": 0,
       "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "d29a4b1b869e",
-      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-10-10T00:18:32+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "4f2b40e05095",
-      "title": "Neanderthal wooden tools from Spain found preserved in stone",
-      "url": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
-      "source": "Ars Technica",
-      "category": "technology",
-      "timestamp": "2026-10-09T22:34:03+00:00",
-      "score": 0,
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-1152x648.png",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "c40435386f3d",
-      "title": "Long live the mechanical keyboard",
-      "url": "https://techcrunch.com/2026/10/09/long-live-the-mechanical-keyboard/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-10-09T22:08:24+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "dce7959f5eb4",
-      "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
-      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-      "source": "Ars Technica",
-      "category": "technology",
-      "timestamp": "2026-10-09T22:04:07+00:00",
-      "score": 0,
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia.jpg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
