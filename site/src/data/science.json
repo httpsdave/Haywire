@@ -3,6 +3,97 @@
   "slug": "science",
   "articles": [
     {
+      "id": "12a64eb186c8",
+      "title": "The eye has a hidden cleanup system scientists never knew existed",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008005254.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-11T02:01:54+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "7dcafa4f1eb6",
+      "title": "Eating olive oil before carbs has a surprising effect on blood sugar",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008102700.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-11T00:32:03+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "b90524f75f02",
+      "title": "Scientists build a nuclear clock that could make atomic clocks obsolete",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-10T23:06:35+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "e122fca2fa2d",
+      "title": "A plastic once thought harmless may be fueling fatty liver disease",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008102718.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-10T20:47:05+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "d9927eda682b",
+      "title": "Neanderthals may have used prehistoric glue as an ancient antibiotic",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008005256.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-10T20:45:37+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "95a0ac4e911d",
+      "title": "Scientists created a tiny device that can control your nerves to treat chronic pain",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261008005253.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-10T20:23:19+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "58626a121fe7",
+      "title": "A surprisingly simple way to relieve knee arthritis pain without pills or surgery",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261009025434.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-10T20:00:24+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "e2b363293ec9",
       "title": "Scientists may have found a shortcut to fusion energy",
       "url": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
@@ -13,7 +104,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "f53ae02a33eb",
