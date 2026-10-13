@@ -3,6 +3,19 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "528f42218448",
+      "title": "Character.AI files for bankruptcy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-10-13T06:32:23-04:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK278_character_ai_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
       "id": "48ea3136885a",
       "title": "39-year-old unvaccinated woman becomes 6th measles death in Pennsylvania",
       "url": "https://arstechnica.com/health/2026/10/39-year-old-unvaccinated-woman-becomes-6th-measles-death-in-pennsylvania/",
@@ -13,7 +26,7 @@
       "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-930111236-1152x648.jpeg",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "f78f8eaa231d",
@@ -245,19 +258,6 @@
       "timestamp": "2026-10-12T14:43:14+00:00",
       "score": 0,
       "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298551998-1152x648.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "4d95d40a6584",
-      "title": "Smart ring maker Ultrahuman to roll out biological-age model across UAE",
-      "url": "https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-10-12T14:09:34+00:00",
-      "score": 0,
-      "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
