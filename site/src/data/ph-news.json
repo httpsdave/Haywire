@@ -3,6 +3,58 @@
   "slug": "ph-news",
   "articles": [
     {
+      "id": "d197e5adbe38",
+      "title": "Aquino urges gov’t lenders to waive loan interest during Super El Niño",
+      "url": "https://newsinfo.inquirer.net/2322660/aquino-urges-govt-lenders-to-waive-loan-interest-during-super-el-nino",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-13T12:02:18+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2022/12/GSIS-SSS-file-12132022.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "e3be09eb6f35",
+      "title": "Padilla files bill rewarding gov’t execs who voluntarily take drug test",
+      "url": "https://newsinfo.inquirer.net/2322637/padilla-files-bill-rewarding-govt-officials-who-voluntarily-take-drug-test",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-13T11:09:33+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/09/WATCH-Padilla-urges-senators-to-uphold-Constitution-amid-impeachment-voting-questions.png",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "434695c43036",
+      "title": "DSWD boosts relief storage, food aid in Eastern Samar",
+      "url": "https://newsinfo.inquirer.net/2322636/dswd-boosts-relief-storage-food-aid-in-eastern-samar",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-13T10:58:38+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/dswd-photo-1.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "ec1a44b6d844",
+      "title": "Gatchalian: Marcos’ ‘bucket’ advice practical amid expected El Niño",
+      "url": "https://newsinfo.inquirer.net/2322640/gatchalian-marcos-bucket-advice-practical-amid-expected-el-nino",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-13T10:58:15+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2019/06/22water.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "6b0c0a197a52",
       "title": "Dole issues pay rules for November holiday, non-working days",
       "url": "https://newsinfo.inquirer.net/2322611/dole-issues-pay-rules-for-november-holiday-non-working-days",
@@ -13,7 +65,7 @@
       "thumbnail": "https://newsinfo.inquirer.net/files/2024/02/Department-of-Labor-and-Employment-DOLE-training-2024.png",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "2298ad874e29",
@@ -185,8 +237,8 @@
       "isFeatured": false
     },
     {
-      "id": "6b0f8df37ba0",
-      "title": "NBI probes businessman’s links to Duterte family",
+      "id": "c4ce687b3563",
+      "title": "NBI probes links of businessman Jaime T. Cruz to Duterte family",
       "url": "https://newsinfo.inquirer.net/2322446/nbi-probes-businessmans-links-to-duterte-family",
       "source": "Inquirer.net",
       "category": "ph_news",
@@ -206,58 +258,6 @@
       "timestamp": "2026-10-13T05:50:00+00:00",
       "score": 0,
       "thumbnail": "https://newsinfo.inquirer.net/files/2026/02/House-of-Representatives-Congress-10February2026_2-scaled.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "a712aedb3272",
-      "title": "ERC orders Meralco to refund P2.64B to consumers",
-      "url": "https://newsinfo.inquirer.net/2322431/erc-orders-meralco-to-refund-p2-64b-to-consumers",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-13T05:35:00+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Meralco-13october2026.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "2273b1eea960",
-      "title": "Unexplained wealth of VP may hit P1.5 billion, says analyst",
-      "url": "https://newsinfo.inquirer.net/2322433/unexplained-wealth-of-vp-may-hit-p1-5-billion-says-analyst",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-13T05:30:00+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Alexander-Cabrera-impeachment-trial-13october2026.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "308b09619dcc",
-      "title": "Ombudsman report: 39 flood mess cases filed",
-      "url": "https://newsinfo.inquirer.net/2322447/ombudsman-report-39-flood-mess-cases-filed",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-13T05:25:00+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Jesus-Crispin-Boying-Remulla-13october2026.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "4150046b0d2a",
-      "title": "Special bus routes eyed to ease LRT 2 congestion",
-      "url": "https://newsinfo.inquirer.net/2322434/special-bus-routes-eyed-to-ease-lrt-2-congestion",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-13T05:20:00+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2022/09/LTFRB-logo-filephoto-090822-04.jpg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
