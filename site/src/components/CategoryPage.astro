@@ -17,6 +17,14 @@ interface Props {
 const { category, navSlug } = Astro.props;
 const featured = category.articles.find(a => a.isFeatured) || category.articles[0];
 const otherArticles = category.articles.filter(a => a.id !== featured?.id);
+
+function getDomain(url: string): string {
+  try {
+    return new URL(url).hostname.replace('www.', '');
+  } catch {
+    return '';
+  }
+}
 ---
 
 <BaseLayout title={`${category.name} — Haywire`} description={`Latest ${category.name} from Haywire — crowdsourced news aggregator.`}>
@@ -42,7 +50,7 @@ const otherArticles = category.articles.filter(a => a.id !== featured?.id);
       {featured && (
         <div class="section-content" style="margin-bottom: var(--space-lg);">
           <div class="featured-article">
-            <a href={featured.url} target="_blank" rel="noopener noreferrer">
+            <a href={featured.url} target="_blank" rel="noopener noreferrer" class="article-link-preview" data-preview-thumb={featured.thumbnail || ''} data-preview-domain={getDomain(featured.url)}>
               {featured.thumbnail && (
                 <img
                   src={featured.thumbnail}
@@ -57,9 +65,9 @@ const otherArticles = category.articles.filter(a => a.id !== featured?.id);
             </a>
           </div>
           <div class="article-sidebar">
-            {otherArticles.slice(0, 5).map(article => (
+            {otherArticles.slice(0, 7).map(article => (
               <div class="article-item">
-                <a href={article.url} target="_blank" rel="noopener noreferrer">
+                <a href={article.url} target="_blank" rel="noopener noreferrer" class="article-link-preview" data-preview-thumb={article.thumbnail || ''} data-preview-domain={getDomain(article.url)}>
                   <div class="article-item-title">{article.title}</div>
                   <div class="article-item-meta">
                     ({formatTimestamp(article.timestamp)})
@@ -76,7 +84,7 @@ const otherArticles = category.articles.filter(a => a.id !== featured?.id);
       <div class="category-full-list">
         {category.articles.map(article => (
           <div class="category-full-item">
-            <a href={article.url} target="_blank" rel="noopener noreferrer">
+            <a href={article.url} target="_blank" rel="noopener noreferrer" class="article-link-preview" data-preview-thumb={article.thumbnail || ''} data-preview-domain={getDomain(article.url)}>
               <div class="category-full-title">{article.title}</div>
             </a>
             <div class="category-full-meta">

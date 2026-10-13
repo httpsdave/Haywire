@@ -14,7 +14,15 @@ if (!category || !category.articles || category.articles.length === 0) {
 }
 
 const featured = category.articles.find(a => a.isFeatured) || category.articles[0];
-const sidebarArticles = category.articles.filter(a => a.id !== featured?.id).slice(0, 5);
+const sidebarArticles = category.articles.filter(a => a.id !== featured?.id).slice(0, 7);
+
+function getDomain(url: string): string {
+  try {
+    return new URL(url).hostname.replace('www.', '');
+  } catch {
+    return '';
+  }
+}
 ---
 
 <section class="news-section" id={`section-${category.slug}`}>
@@ -28,7 +36,7 @@ const sidebarArticles = category.articles.filter(a => a.id !== featured?.id).sli
   <div class="section-content">
     {featured && (
       <div class="featured-article">
-        <a href={featured.url} target="_blank" rel="noopener noreferrer">
+        <a href={featured.url} target="_blank" rel="noopener noreferrer" class="article-link-preview" data-preview-thumb={featured.thumbnail || ''} data-preview-domain={getDomain(featured.url)}>
           {featured.thumbnail && (
             <img
               src={featured.thumbnail}
@@ -47,7 +55,7 @@ const sidebarArticles = category.articles.filter(a => a.id !== featured?.id).sli
     <div class="article-sidebar">
       {sidebarArticles.map(article => (
         <div class="article-item">
-          <a href={article.url} target="_blank" rel="noopener noreferrer">
+          <a href={article.url} target="_blank" rel="noopener noreferrer" class="article-link-preview" data-preview-thumb={article.thumbnail || ''} data-preview-domain={getDomain(article.url)}>
             <div class="article-item-title">{article.title}</div>
             <div class="article-item-meta">
               ({formatTimestamp(article.timestamp)})

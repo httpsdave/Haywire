@@ -55,5 +55,86 @@ const { title = 'Haywire — Crowdsourced News', description = 'Crowdsourced new
       });
     }
   </script>
+
+  <!-- Link Preview Tooltip -->
+  <script>
+    (function() {
+      // Create a single reusable tooltip element
+      const tooltip = document.createElement('div');
+      tooltip.className = 'link-preview-tooltip';
+      tooltip.innerHTML = '<img src="" alt="Preview" /><div class="preview-domain"></div>';
+      document.body.appendChild(tooltip);
+
+      const tooltipImg = tooltip.querySelector('img') as HTMLImageElement;
+      const tooltipDomain = tooltip.querySelector('.preview-domain') as HTMLElement;
+
+      let hideTimeout: ReturnType<typeof setTimeout> | null = null;
+      let currentTarget: HTMLElement | null = null;
+
+      function showTooltip(anchor: HTMLElement) {
+        const thumb = anchor.getAttribute('data-preview-thumb');
+        const domain = anchor.getAttribute('data-preview-domain');
+
+        if (!thumb) return; // No thumbnail, no preview
+
+        // Preload image to avoid showing broken state
+        const testImg = new Image();
+        testImg.onload = () => {
+          if (currentTarget !== anchor) return; // User already moved away
+          tooltipImg.src = thumb;
+          tooltipDomain.textContent = domain || '';
+
+          // Position tooltip
+          const rect = anchor.getBoundingClientRect();
+          const scrollY = window.scrollY || window.pageYOffset;
+          const scrollX = window.scrollX || window.pageXOffset;
+
+          let left = rect.left + scrollX + (rect.width / 2) - 130;
+          let top = rect.top + scrollY - 8;
+
+          // Keep within viewport
+          if (left < 8) left = 8;
+          if (left + 260 > document.documentElement.clientWidth)
+            left = document.documentElement.clientWidth - 268;
+
+          tooltip.style.position = 'absolute';
+          tooltip.style.left = left + 'px';
+          tooltip.style.bottom = 'auto';
+          tooltip.style.top = (top - tooltip.offsetHeight || top - 190) + 'px';
+          tooltip.style.transform = 'none';
+          tooltip.classList.add('visible');
+        };
+        testImg.onerror = () => {}; // Silently fail
+        testImg.src = thumb;
+      }
+
+      function hideTooltip() {
+        tooltip.classList.remove('visible');
+        currentTarget = null;
+      }
+
+      // Event delegation on all article links
+      document.addEventListener('mouseenter', (e) => {
+        const anchor = (e.target as HTMLElement).closest('.article-link-preview') as HTMLElement;
+        if (!anchor) return;
+        if (hideTimeout) clearTimeout(hideTimeout);
+        currentTarget = anchor;
+        showTooltip(anchor);
+      }, true);
+
+      document.addEventListener('mouseleave', (e) => {
+        const anchor = (e.target as HTMLElement).closest('.article-link-preview') as HTMLElement;
+        if (!anchor) return;
+        hideTimeout = setTimeout(hideTooltip, 100);
+      }, true);
+
+      // Also hide on scroll for mobile
+      let scrollTimer: ReturnType<typeof setTimeout> | null = null;
+      window.addEventListener('scroll', () => {
+        if (scrollTimer) clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(hideTooltip, 50);
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>
