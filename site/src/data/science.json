@@ -92,58 +92,6 @@
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
-    },
-    {
-      "id": "2be45fa2def6",
-      "title": "Scientists predicted doomsday for November 13, 2026. Should we be worried?",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261016070639.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-16T21:52:59+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "954e90abe428",
-      "title": "Stanford’s new microscope reveals living cells like never before",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261015073231.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-16T21:06:05+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "ae2e6344c110",
-      "title": "SpaceX just delivered some very strange cargo to the International Space Station",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261016070628.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-16T19:51:58+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "d9659dae9fee",
-      "title": "James Webb reveals a strange bulge in an alien planet's atmosphere",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261015073205.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-16T19:27:29+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
     }
   ]
 }
