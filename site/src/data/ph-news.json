@@ -3,6 +3,32 @@
   "slug": "ph-news",
   "articles": [
     {
+      "id": "47ff8818f80d",
+      "title": "Cops seize P1M worth of marijuana, arrest suspect in GenSan",
+      "url": "https://newsinfo.inquirer.net/2325755/cops-seize-p1m-worth-of-marijuana-arrest-suspect-in-gensan",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-17T23:19:35+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/PHOTO-1M.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "500ae7e123c6",
+      "title": "Group: ‘No genuine liberation’ for Marawi as residents still displaced",
+      "url": "https://newsinfo.inquirer.net/2325750/group-no-genuine-liberation-for-marawi-as-residents-still-displaced",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-17T23:09:29+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/1000050626.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "4306ad2316b1",
       "title": "Solar-powered water pumps seen to help save rice crops in Ilocos Norte",
       "url": "https://newsinfo.inquirer.net/2325700/solar-pumps-seen-to-help-save-rice-crops-in-ilocos-norte",
@@ -13,7 +39,7 @@
       "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/3711.jpg",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "fc60933bcb06",
@@ -232,32 +258,6 @@
       "timestamp": "2026-10-17T18:29:06+00:00",
       "score": 0,
       "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/WhatsApp-Image-2026-10-17-at-4.40.09-PM.jpeg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "d505fb7879f3",
-      "title": "37 Ilocos Norte schools get rainwater catchment drums amid El Niño threat",
-      "url": "https://newsinfo.inquirer.net/2325600/37-ilocos-norte-schools-get-rainwater-catchment-drums-amid-el-nino-threat",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-17T18:17:31+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Ilocos-Norte-schools-get-rainwater-catchment-drums-amid-El-Nino-threat-17October2026.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "cba4bf1140dc",
-      "title": "DepEd introduces ‘My Buddy’ peer support system for safer schools",
-      "url": "https://newsinfo.inquirer.net/2325646/deped-introduces-my-buddy-peer-support-system-for-safer-schools",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-17T18:02:48+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/04/angara-22apr2026.jpg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
