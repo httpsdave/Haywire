@@ -3,6 +3,19 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "9c5bab2d79a5",
+      "title": "Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+      "url": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-19T07:30:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
       "id": "827e13b2c3bd",
       "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
       "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
@@ -13,7 +26,7 @@
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2265184860.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "c953b5596d2a",
