@@ -3,6 +3,71 @@
   "slug": "science",
   "articles": [
     {
+      "id": "c87141e5d84b",
+      "title": "40 years later, Chernobyl's nuclear fallout is not what scientists expected",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231241.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-22T23:35:13+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "1a412b1a2234",
+      "title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231244.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-22T22:54:41+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "c4be2875b74a",
+      "title": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-22T21:21:47+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "4656758dafeb",
+      "title": "Scientists discover a hidden immune weapon against deadly lung cancer",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261021231232.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-22T20:32:37+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "d1457357b2b4",
+      "title": "Millions take fish oil for brain health. A two-year study found no benefit",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-22T08:46:24+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "592344ff6f7d",
       "title": "Birds are more afraid of women than men. Scientists have no idea why",
       "url": "https://www.sciencedaily.com/releases/2026/10/261021231250.htm",
@@ -13,7 +78,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "468be2f80b72",
@@ -61,32 +126,6 @@
       "source": "Science Daily",
       "category": "science",
       "timestamp": "2026-10-22T07:03:49+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "45f97c0e0be0",
-      "title": "Coffee calories have jumped nearly 40%. Sugar isn't the biggest culprit",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261021231224.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-22T06:52:18+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "38142095ed1d",
-      "title": "Scientists discover a surprising secret behind the human brain’s wrinkles",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261021231235.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-22T06:10:23+00:00",
       "score": 0,
       "thumbnail": null,
       "sourceType": "rss",

@@ -3,6 +3,45 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "ddeabfaff8cb",
+      "title": "Oura sues rival Ultrahuman again, threatening its U.S. smart ring comeback",
+      "url": "https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-23T04:22:57+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "a0beb5a96bc5",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-23T04:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "379b4bd7505d",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-23T00:45:37+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "38de73a89a72",
       "title": "Etsy is cracking down on AI slop listings",
       "url": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
@@ -13,7 +52,7 @@
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-22-at-5.03.44-PM.png?quality=90&#038;strip=all&#038;crop=0,0,100,82.725656291205",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "0b6893911976",
@@ -219,45 +258,6 @@
       "timestamp": "2026-10-22T16:24:04-04:00",
       "score": 0,
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_C.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "6f9c8777e2b6",
-      "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
-      "url": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
-      "source": "The Verge",
-      "category": "technology",
-      "timestamp": "2026-10-22T16:23:48-04:00",
-      "score": 0,
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25840497/STKP211_BRENDAN_CARR_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "c0a1868ddca2",
-      "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
-      "url": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
-      "source": "Ars Technica",
-      "category": "technology",
-      "timestamp": "2026-10-22T20:17:52+00:00",
-      "score": 0,
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-1778229942-1152x648.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "c734e1a01030",
-      "title": "Arc browser sunsets December 22 as The Browser Company doubles down on Dia",
-      "url": "https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-10-22T20:01:51+00:00",
-      "score": 0,
-      "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
