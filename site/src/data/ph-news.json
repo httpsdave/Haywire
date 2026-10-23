@@ -3,6 +3,58 @@
   "slug": "ph-news",
   "articles": [
     {
+      "id": "789afe1e65f3",
+      "title": "DepEd finishes 391 disaster-resilient school buildings; 150 being built",
+      "url": "https://newsinfo.inquirer.net/2329165/deped-finishes-391-disaster-resilient-school-buildings-150-being-built",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-23T22:56:22+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/WhatsApp-Image-2026-10-23-at-22.35.17.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "ab79d9115718",
+      "title": "Bangsamoro group urges Marcos, MILF chief to meet before Oct. 30",
+      "url": "https://newsinfo.inquirer.net/2329161/bangsamoro-group-urges-marcos-milf-chief-to-meet-before-oct-30",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-23T22:21:12+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2024/12/Regions909203-e1756955920412.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "ffac1ebc7074",
+      "title": "3 players bag ₱15M MegaLotto 6/45 jackpot on Friday, Oct. 23",
+      "url": "https://newsinfo.inquirer.net/2329156/3-players-bag-15m-megalotto-6-45-jackpot-on-friday-oct-23",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-23T21:55:07+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2022/10/pcso-lotto-logo-filephoto-10222-4.png",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "626dc7174874",
+      "title": "UST suspends Saturday classes after bomb threat",
+      "url": "https://newsinfo.inquirer.net/2329152/ust-suspends-saturday-classes-after-bomb-threat",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-23T21:45:00+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2016/04/UST-MAIN-building1.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "2ac2c3eddc28",
       "title": "Village councilor allegedly caught with P98,000 ‘shabu’ in Ilocos Norte",
       "url": "https://newsinfo.inquirer.net/2329132/village-councilor-allegedly-caught-with-p98000-shabu-in-ilocos-norte",
@@ -13,7 +65,7 @@
       "thumbnail": "https://newsinfo.inquirer.net/files/2025/08/shabu-bag-082125.png",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "f98d32fc3db9",
@@ -42,8 +94,8 @@
       "isFeatured": false
     },
     {
-      "id": "3b5ee6fe7d06",
-      "title": "Loren Legarda launches 10-point action plan vs. Super El Niño",
+      "id": "d51d0078fab6",
+      "title": "Loren Legarda launches 10-point action plan vs Super El Niño",
       "url": "https://newsinfo.inquirer.net/2329092/loren-legarda-launches-10-point-action-plan-vs-super-el-nino",
       "source": "Inquirer.net",
       "category": "ph_news",
@@ -172,6 +224,19 @@
       "isFeatured": false
     },
     {
+      "id": "3a951a91d622",
+      "title": "Misuari, 5 BARMM governors back Macacua to lead Bangsamoro Parliament",
+      "url": "https://www.gmanetwork.com/news/topstories/regions/1006981/misuari-5-barmm-governors-back-macacua-to-lead-bangsamoro-parliament/story/",
+      "source": "GMA News",
+      "category": "ph_news",
+      "timestamp": "2026-10-24T01:34:34+08:00",
+      "score": 0,
+      "thumbnail": "https://images.gmanews.tv/webpics/2026/10/misuari_2026_10_24_01_34_07.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "75043efa20cd",
       "title": "PNP to Sen. Bato dela Rosa: You have one week to surrender",
       "url": "https://newsinfo.inquirer.net/2329034/pnp-to-sen-bato-dela-rosa-you-have-one-week-to-surrender",
@@ -185,79 +250,14 @@
       "isFeatured": false
     },
     {
-      "id": "7f012a974e12",
-      "title": "Truck helper killed, 2 injured in Quezon bypass road accident",
-      "url": "https://newsinfo.inquirer.net/2329027/truck-helper-killed-2-injured-in-quezon-bypass-road-accident",
-      "source": "Inquirer.net",
+      "id": "3468d6c16c8c",
+      "title": "3, patay sa pamamaril ng mga suspek na nagpanggap na bibili ng produkto ng mga biktima",
+      "url": "https://www.gmanetwork.com/news/balitambayan/promdi/1006979/3-patay-sa-pamamaril-ng-mga-suspek-na-nagpanggap-na-bibili-ng-produkto-ng-mga-biktima/story/",
+      "source": "GMA News",
       "category": "ph_news",
-      "timestamp": "2026-10-23T16:53:19+00:00",
+      "timestamp": "2026-10-24T01:12:39+08:00",
       "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Copy-Quezon-Province-map-filephoto-091122.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "6fd948d6aba9",
-      "title": "EV charging now at six NLEX service stops; 2 more by December",
-      "url": "https://newsinfo.inquirer.net/2329001/ev-charging-now-at-six-nlex-service-stops-2-more-by-december",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-23T16:52:07+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/WeChargeHyperfast-23Oct2026.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "55c122dd2c8c",
-      "title": "Crabs stuffed inside roasted pigs highlight Cagayan festival",
-      "url": "https://newsinfo.inquirer.net/2329015/crabs-stuffed-inside-roasted-pigs-highlight-cagayan-festival",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-23T16:46:33+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/1000030821-scaled.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "81816aa2b476",
-      "title": "NBI nabs over 80 in Makati for alleged lending app collection abuses",
-      "url": "https://newsinfo.inquirer.net/2329002/nbi-nabs-over-80-in-makati-for-alleged-lending-app-collection-abuses",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-23T16:33:59+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2023/10/OFW-SCAM-10062023.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "d2cf95c967b7",
-      "title": "5-year-old boy reported abducted in Laguna, found safe in Rizal",
-      "url": "https://newsinfo.inquirer.net/2329005/5-year-old-boy-reported-abducted-in-laguna-found-safe-in-rizal",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-23T16:32:58+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2022/09/Rizal-map-filephoto-091122.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "18280a3c33a7",
-      "title": "Cops seize P367,000 in ‘shabu’ in Dipolog City buy-bust",
-      "url": "https://newsinfo.inquirer.net/2328998/cops-seize-p367000-in-shabu-in-dipolog-city-buy-bust",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-23T16:21:59+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Cops-seize-P367k-in-suspect-meth-in-Dipolog-City-buy-bust-23October2026.jpg",
+      "thumbnail": "https://images.gmanews.tv/webpics/2026/10/Untitled7_2026_10_24_01_12_08.jpg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
