@@ -3,6 +3,19 @@
   "slug": "science",
   "articles": [
     {
+      "id": "e626a1d5e9bb",
+      "title": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+      "url": "https://www.nature.com/articles/s41586-026-11328-3",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-10-25T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
       "id": "0ec9073860b4",
       "title": "Could lowering high blood pressure be as simple as stimulating your ear?",
       "url": "https://www.sciencedaily.com/releases/2026/10/261023023732.htm",
@@ -13,7 +26,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "438ad3c47187",
@@ -22,84 +35,6 @@
       "source": "Science Daily",
       "category": "science",
       "timestamp": "2026-10-24T09:01:22+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "5dc280ee877c",
-      "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-24T08:50:06+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "c70194403147",
-      "title": "Scientists propose a way to detect dangerous “mirror life” before it exists",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261023023726.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-24T08:39:16+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "b1cd26c68831",
-      "title": "Astronomers uncover a mysterious magnetic web above the Sun",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-24T08:23:38+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "c79ea34cb199",
-      "title": "These tiny snakes roll four times faster than they slither",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261023023718.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-24T08:12:03+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "f0f37de5c18a",
-      "title": "Your blood could reveal inflammatory bowel disease 10 years before diagnosis",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261023023713.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-24T07:52:47+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "f22e70acdb30",
-      "title": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261023002905.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-24T07:16:08+00:00",
       "score": 0,
       "thumbnail": null,
       "sourceType": "rss",
