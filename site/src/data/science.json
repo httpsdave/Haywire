@@ -3,6 +3,32 @@
   "slug": "science",
   "articles": [
     {
+      "id": "48b5148ed8f6",
+      "title": "A simple liquid can stop cavities without drilling, major study confirms",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025222339.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-25T22:41:13+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "eb837d1a6745",
+      "title": "Scientists overcome a hidden obstacle to more powerful quantum computers",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222024.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-25T21:42:48+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "e3d445b41b88",
       "title": "Scientists reveal the hidden danger of missing blood pressure medication",
       "url": "https://www.sciencedaily.com/releases/2026/10/261024222028.htm",
@@ -13,7 +39,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "f18572bb677b",
@@ -74,45 +100,6 @@
       "source": "Science Daily",
       "category": "science",
       "timestamp": "2026-10-25T06:21:48+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "6543288331d6",
-      "title": "This mysterious mushroom makes people see hundreds of tiny humans",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261024222021.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-25T02:36:10+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "2054ec083337",
-      "title": "Popular cannabis sleep gummies may have a hidden dark side",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261024221952.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-25T01:08:39+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "e626a1d5e9bb",
-      "title": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
-      "url": "https://www.nature.com/articles/s41586-026-11328-3",
-      "source": "Nature",
-      "category": "science",
-      "timestamp": "2026-10-25T00:00:00+00:00",
       "score": 0,
       "thumbnail": null,
       "sourceType": "rss",

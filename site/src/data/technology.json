@@ -3,6 +3,19 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "0081d065729c",
+      "title": "The best apps for tracking your reading and discovering new books",
+      "url": "https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-10-26T01:10:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
       "id": "040d849ef55c",
       "title": "iFixit&#8217;s look inside the iPhone Duo may explain those broken screens and hinges",
       "url": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
@@ -13,7 +26,7 @@
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/iPhone-Duo-layout01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "b4ac624a1cc7",
