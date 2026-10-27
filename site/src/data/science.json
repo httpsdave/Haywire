@@ -146,6 +146,19 @@
       "isFeatured": false
     },
     {
+      "id": "1cbd2ac9c652",
+      "title": "Making ‘mind pictures’ takes mental effort",
+      "url": "https://www.nature.com/articles/d41586-026-03276-9",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-10-27T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "771b0e6c858a",
       "title": "AI watermarking efforts must encourage independent public scrutiny",
       "url": "https://www.nature.com/articles/d41586-026-03406-3",
@@ -198,6 +211,32 @@
       "isFeatured": false
     },
     {
+      "id": "f88bf23fefa8",
+      "title": "Mysterious flickering brain signals could help to unlock secrets of consciousnes",
+      "url": "https://www.nature.com/articles/d41586-026-03384-6",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-10-27T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "eef6c81b90fb",
+      "title": "Global climate body fights for survival: why the IPCC must be saved",
+      "url": "https://www.nature.com/articles/d41586-026-03403-6",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-10-27T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "964a4b936d9e",
       "title": "Can scientists reliably tell if a novel is written using AI?",
       "url": "https://www.nature.com/articles/d41586-026-03394-4",
@@ -217,45 +256,6 @@
       "source": "Science Daily",
       "category": "science",
       "timestamp": "2026-10-26T22:32:38+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "af4e1e12a6a9",
-      "title": "1.9-million-year-old discovery rewrites the story of human evolution",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261025073042.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-26T21:35:08+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "b490048dd7d6",
-      "title": "The surprisingly simple exercise that could lower your blood pressure",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261025073045.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-26T20:57:45+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "8d33d35f26c4",
-      "title": "Scientists solve a 30-year mystery behind inflammatory bowel disease",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261025073053.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-26T19:57:03+00:00",
       "score": 0,
       "thumbnail": null,
       "sourceType": "rss",
