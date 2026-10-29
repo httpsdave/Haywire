@@ -3,6 +3,32 @@
   "slug": "ph-news",
   "articles": [
     {
+      "id": "279f17d0af9b",
+      "title": "PDEA agents dismantle alleged drug den in Bacoor City; 5 arrested",
+      "url": "https://newsinfo.inquirer.net/2332646/pdea-agents-dismantle-alleged-drug-den-in-bacoor-city-5-arrested",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-29T23:23:58+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2024/08/bacoor-city-cavite-map.png",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "df22b6e6bd40",
+      "title": "Body found near Olongapo solar farm; police probe awaited",
+      "url": "https://newsinfo.inquirer.net/2332643/body-found-near-olongapo-solar-farm-police-probe-awaited",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-29T23:21:00+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Olongapo-solar-farm.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "bb41997b2216",
       "title": "Ex-Cebu City mayor challenges Ombudsman ruling over cockfighting events",
       "url": "https://newsinfo.inquirer.net/2332595/ex-cebu-city-mayor-challenges-ombudsman-ruling-over-cockfighting-events",
@@ -13,7 +39,7 @@
       "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Raymond-Alvin-Garcia.jpeg",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "c982738a9f81",
@@ -55,6 +81,19 @@
       "isFeatured": false
     },
     {
+      "id": "4a6280e5e510",
+      "title": "Church holds Mass for EJK victims ahead of Undas",
+      "url": "https://newsinfo.inquirer.net/2332619/church-holds-mass-for-ejk-victims-ahead-of-undas",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-29T22:32:10+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/29oct2026-EJKmass.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "b85c5c5ed80a",
       "title": "Prosec raises possible tax evasion in VP Duterte’s income gap",
       "url": "https://newsinfo.inquirer.net/2332605/prosec-raises-possible-tax-evasion-in-vp-dutertes-income-gap",
@@ -76,6 +115,19 @@
       "timestamp": "2026-10-29T22:23:43+00:00",
       "score": 0,
       "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Oplan-Harabas-2026.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "60535a16baf8",
+      "title": "Adiong: VP Duterte’s best defense would’ve been to state wealth in SALN",
+      "url": "https://newsinfo.inquirer.net/2332610/adiong-vp-dutertes-best-defense-wouldve-been-to-state-wealth-in-saln",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-29T22:20:14+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/1310264.jpeg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
@@ -107,6 +159,19 @@
       "isFeatured": false
     },
     {
+      "id": "fd7d1220d18e",
+      "title": "PH Red Cross to deploy over 1,800 personnel for Undas",
+      "url": "https://newsinfo.inquirer.net/2332583/ph-red-cross-to-deploy-over-1800-personnel-for-undas",
+      "source": "Inquirer.net",
+      "category": "ph_news",
+      "timestamp": "2026-10-29T21:56:48+00:00",
+      "score": 0,
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Screenshot-2026-10-29-at-10.54.06-PM-e1793285875337.jpg",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "c374f3190753",
       "title": "LIST: Road closures near Manila North Cemetery Friday, Oct. 30",
       "url": "https://newsinfo.inquirer.net/2332566/list-road-closures-near-manila-north-cemetery-friday-oct-30",
@@ -114,7 +179,7 @@
       "category": "ph_news",
       "timestamp": "2026-10-29T21:52:29+00:00",
       "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/image-34-scaled.png",
+      "thumbnail": "https://newsinfo.inquirer.net/files/2025/11/517E8453-6ED5-49D8-97B9-A9993A970689-scaled.jpeg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
@@ -166,7 +231,7 @@
       "category": "ph_news",
       "timestamp": "2026-10-29T21:14:51+00:00",
       "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2018/03/walang-pasok-generic.jpeg",
+      "thumbnail": "https://newsinfo.inquirer.net/files/2026/08/11august2026-walangpasok.jpg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
@@ -193,71 +258,6 @@
       "timestamp": "2026-10-29T20:48:42+00:00",
       "score": 0,
       "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Screenshot-2026-10-29-at-8.45.53-PM.png",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "8319b2f70add",
-      "title": "INQToday: Teodoro rejects China’s claim of abuse of Asean chairmanship",
-      "url": "https://newsinfo.inquirer.net/2332516/inqtoday-teodoro-rejects-chinas-claim-of-abuse-of-asean-chairmanship",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-29T20:17:16+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/INQToday-TitleCard-29Oct226.jpg",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "ae6ca9ca7ec8",
-      "title": "Dizon vows crackdown on erring shipping firms after Palawan ferry fire",
-      "url": "https://newsinfo.inquirer.net/2332437/dizon-vows-crackdown-on-erring-shipping-firms-after-palawan-ferry-fire",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-29T20:12:42+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/09/VinceDizon-DPWH-25September2026-scaled.png",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "37fc91f89f1f",
-      "title": "Ex-BARMM official to appear before PDEA on Nov. 5 over Laos drug probe",
-      "url": "https://newsinfo.inquirer.net/2332402/ex-barmm-official-to-appear-before-pdea-on-nov-5-over-laos-drug-probe",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-29T19:57:56+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/Screenshot-2026-10-23-at-12.24.59-PM.png",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "e5057d2cd751",
-      "title": "LPA trough to bring rains to parts of Visayas, Mindanao on Oct. 30",
-      "url": "https://newsinfo.inquirer.net/2332466/lpa-trough-to-bring-rains-to-parts-of-visayas-mindanao-on-oct-30",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-29T19:30:25+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/image-31.png",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "786ba3bfb1ef",
-      "title": "DENR starts restoring wetlands, rivers critical for El Niño",
-      "url": "https://newsinfo.inquirer.net/2332487/denr-starts-restoring-wetlands-rivers-critical-for-el-nino",
-      "source": "Inquirer.net",
-      "category": "ph_news",
-      "timestamp": "2026-10-29T19:15:27+00:00",
-      "score": 0,
-      "thumbnail": "https://newsinfo.inquirer.net/files/2026/10/DENR-TarlacCreekCleanup-29Oct2026.jpg",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
