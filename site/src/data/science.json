@@ -3,6 +3,58 @@
   "slug": "science",
   "articles": [
     {
+      "id": "4ed8b030d73b",
+      "title": "Your blood pressure could be dangerous even when your numbers look normal",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-28T23:54:37+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "32522d97b00e",
+      "title": "Scientists just broke a textbook rule of physics",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063713.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-28T23:39:27+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "b575eaab4709",
+      "title": "Meteors don't just burn up. What really happens is far more violent",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063710.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-28T23:06:41+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "82e8d8b6a1a1",
+      "title": "Scientists discover a hidden oxygen reservoir deep inside Earth",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261027063702.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-10-28T21:13:05+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "2f547e903dd2",
       "title": "Scientists discover a hidden reason why muscles weaken with age",
       "url": "https://www.sciencedaily.com/releases/2026/10/261027063704.htm",
@@ -13,7 +65,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "ea5fa65267b4",
@@ -61,45 +113,6 @@
       "source": "Science Daily",
       "category": "science",
       "timestamp": "2026-10-28T08:00:17+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "6a38b8d919e8",
-      "title": "Earth's ice ages may have been driven by a hidden ocean chain reaction",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261026225610.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-28T07:08:25+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "288fe97f405c",
-      "title": "NASA’s Artemis I mission reveals surprising radiation levels near the Moon",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261027063659.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-28T06:29:36+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "816a97f2e37e",
-      "title": "Antarctica’s “Doomsday Glacier” could raise sea levels twice as much as predicted",
-      "url": "https://www.sciencedaily.com/releases/2026/10/261027063701.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-10-28T05:22:09+00:00",
       "score": 0,
       "thumbnail": null,
       "sourceType": "rss",
