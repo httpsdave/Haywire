@@ -3,6 +3,32 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "3f3f032851a0",
+      "title": "Jackery made its portable power stations even smaller",
+      "url": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
+      "source": "The Verge",
+      "category": "technology",
+      "timestamp": "2026-11-02T00:00:00-05:00",
+      "score": 0,
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/jackery1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "71db7ba119d0",
+      "title": "Borrowed reading: stories from our extended colleagues",
+      "url": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-11-02T04:23:48+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "4858ce7f45e5",
       "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
       "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
@@ -13,7 +39,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "093abf6123ec",
@@ -180,19 +206,6 @@
       "timestamp": "2026-11-01T08:00:00-05:00",
       "score": 0,
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "d1ae0196b676",
-      "title": "Data centers are now a midterm issue, even in Brooklyn",
-      "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-11-01T02:22:10+00:00",
-      "score": 0,
-      "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
