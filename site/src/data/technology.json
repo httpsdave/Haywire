@@ -3,6 +3,45 @@
   "slug": "technology",
   "articles": [
     {
+      "id": "6e12090acaf5",
+      "title": "Sequoia shutting down its Scouts program marks the end of an era",
+      "url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-11-07T05:01:54+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "86087d81e183",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-11-07T04:16:43+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "d46ca9fcca33",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source": "TechCrunch",
+      "category": "technology",
+      "timestamp": "2026-11-07T01:40:28+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "6c59186aba60",
       "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
@@ -13,11 +52,11 @@
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
-      "id": "f987763fa3be",
-      "title": "Man unexpectedly recovers from a knife wound through his eye and brain",
+      "id": "e88f86e49517",
+      "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now",
       "url": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
       "source": "Ars Technica",
       "category": "technology",
@@ -219,45 +258,6 @@
       "timestamp": "2026-11-06T18:44:38+00:00",
       "score": 0,
       "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "39c0fb1044e2",
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "source": "TechCrunch",
-      "category": "technology",
-      "timestamp": "2026-11-06T18:44:20+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "33002e52d7b3",
-      "title": "Lame-duck Congress might actually do something: speed up energy projects",
-      "url": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote",
-      "source": "The Verge",
-      "category": "technology",
-      "timestamp": "2026-11-06T13:42:30-05:00",
-      "score": 0,
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268857_cutting_red_tape_to_build_more_powerlines__CVirginia-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "18a18d428975",
-      "title": "The folks behind John Wick are back with Karōshi trailer",
-      "url": "https://arstechnica.com/culture/2026/11/the-folks-behind-john-wick-are-back-with-karoshi-trailer/",
-      "source": "Ars Technica",
-      "category": "technology",
-      "timestamp": "2026-11-06T18:30:19+00:00",
-      "score": 0,
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Screenshot-2026-11-06-at-12.24.52-PM-1152x648.png",
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
