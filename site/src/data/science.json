@@ -16,6 +16,19 @@
       "isFeatured": true
     },
     {
+      "id": "1e204c978faa",
+      "title": "A practically perfect plesiosaur",
+      "url": "https://www.nature.com/articles/d41586-026-03278-7",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-11-10T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "27fb577d74ac",
       "title": "Chile’s postdoc rules risk driving talent away",
       "url": "https://www.nature.com/articles/d41586-026-03643-6",
@@ -55,6 +68,19 @@
       "isFeatured": false
     },
     {
+      "id": "ccd3a3c742d0",
+      "title": "California votes to give record $8.4 billion to medical research",
+      "url": "https://www.nature.com/articles/d41586-026-03635-6",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-11-10T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "28881d182345",
       "title": "How microbes can secure the critical minerals the world needs",
       "url": "https://www.nature.com/articles/d41586-026-03629-4",
@@ -68,9 +94,48 @@
       "isFeatured": false
     },
     {
+      "id": "4cd051803f1c",
+      "title": "Mongolia’s iconic grasslands are in crisis — invisible fungi could help save them",
+      "url": "https://www.nature.com/articles/d41586-026-03589-9",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-11-10T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "ab21714d133a",
       "title": "PhDs worldwide are having a shake up — why now?",
       "url": "https://www.nature.com/articles/d41586-026-03017-y",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-11-10T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "416d1f14abac",
+      "title": "The public trusts scientists with AI — more than it does anyone else",
+      "url": "https://www.nature.com/articles/d41586-026-03578-y",
+      "source": "Nature",
+      "category": "science",
+      "timestamp": "2026-11-10T00:00:00+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "3bcd326e0024",
+      "title": "Metascience should be a source of evidence, not a means of control",
+      "url": "https://www.nature.com/articles/d41586-026-03620-z",
       "source": "Nature",
       "category": "science",
       "timestamp": "2026-11-10T00:00:00+00:00",
@@ -100,32 +165,6 @@
       "source": "Science Daily",
       "category": "science",
       "timestamp": "2026-11-09T20:47:34+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "eae8201c39d8",
-      "title": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-11-09T19:42:52+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "46dcb44df869",
-      "title": "Scientists finally discover why we learn to love bitter coffee",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261108233100.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-11-09T18:19:35+00:00",
       "score": 0,
       "thumbnail": null,
       "sourceType": "rss",
