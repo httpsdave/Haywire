@@ -3,6 +3,84 @@
   "slug": "science",
   "articles": [
     {
+      "id": "98a19d06d724",
+      "title": "Scientists find a simple daily routine linked to less pain and depression",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-14T07:48:01+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "553483e11bc5",
+      "title": "A new fiber supplement could help millions suffering from irritable bowel syndrome",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230450.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-14T07:35:36+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "469f41de48d7",
+      "title": "Stanford scientists discover hidden brain signals that predict Alzheimer’s years before symptoms",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-14T07:25:05+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "d221ce69edfd",
+      "title": "Exercise after ACL surgery may protect knees from early osteoarthritis",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112025538.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-14T07:14:57+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "5388d87d6dba",
+      "title": "A giant icy world hiding beyond Pluto could be our sixth dwarf planet",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-14T06:58:42+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "5791d4c8d567",
+      "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112025544.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-14T06:42:28+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "27b3bfd0e82c",
       "title": "Yale scientists reveal what really slows aging and what doesn't",
       "url": "https://www.sciencedaily.com/releases/2026/11/261112230452.htm",
@@ -13,7 +91,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "548068543f71",
