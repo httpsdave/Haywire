@@ -3,6 +3,84 @@
   "slug": "science",
   "articles": [
     {
+      "id": "0bf1785ce7a4",
+      "title": "Vitamin C could help block cancer-linked chemicals in your stomach, study finds",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-15T09:13:18+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": true
+    },
+    {
+      "id": "27b59080a713",
+      "title": "A common osteoporosis drug blocked spinal damage in a surprising new study",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-15T09:03:39+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "cfdba7f7eb56",
+      "title": "NASA warns this year's Monster El Niño could be even bigger than legendary 1997 event",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202227.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-15T08:53:25+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "ad6e16cd0af1",
+      "title": "Uranus and Neptune’s bizarre magnetic fields may finally be explained",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202204.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-15T08:43:22+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "19a130ea1724",
+      "title": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-15T08:04:09+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
+      "id": "f9797dc05fb4",
+      "title": "A simple supplement could help your immune system fight cancer and viral infections",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261113232000.htm",
+      "source": "Science Daily",
+      "category": "science",
+      "timestamp": "2026-11-15T07:36:52+00:00",
+      "score": 0,
+      "thumbnail": null,
+      "sourceType": "rss",
+      "commentCount": 0,
+      "isFeatured": false
+    },
+    {
       "id": "43e93be357ea",
       "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
       "url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
@@ -13,7 +91,7 @@
       "thumbnail": null,
       "sourceType": "rss",
       "commentCount": 0,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": "2fcd2fd2741e",
