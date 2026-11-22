@@ -92,32 +92,6 @@
       "sourceType": "rss",
       "commentCount": 0,
       "isFeatured": false
-    },
-    {
-      "id": "1a52064cb043",
-      "title": "BepiColombo finally reaches Mercury after eight-year odyssey",
-      "url": "https://www.nature.com/articles/d41586-026-03803-8",
-      "source": "Nature",
-      "category": "science",
-      "timestamp": "2026-11-21T00:00:00+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
-    },
-    {
-      "id": "e2dbd457b787",
-      "title": "Microplastics may be more dangerous than we thought. Scientists just discovered why",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261120075549.htm",
-      "source": "Science Daily",
-      "category": "science",
-      "timestamp": "2026-11-20T21:35:26+00:00",
-      "score": 0,
-      "thumbnail": null,
-      "sourceType": "rss",
-      "commentCount": 0,
-      "isFeatured": false
     }
   ]
 }
